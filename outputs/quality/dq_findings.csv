@@ -1,0 +1,17 @@
+check_name,table_name,observed,expected,severity
+items have valid order,stg_order_items,0,0,error
+items have valid product,stg_order_items,0,0,error
+no cost above price,stg_products,0,0,error
+no duplicate customers,stg_customers,0,0,error
+no duplicate orders,stg_orders,0,0,error
+no future order dates,stg_orders,0,0,error
+no future touches,stg_marketing_touches,0,0,error
+no negative refunds,stg_returns,0,0,error
+no negative shipping,stg_orders,0,0,error
+no non-positive prices,stg_order_items,0,0,error
+no non-positive quantities,stg_order_items,0,0,error
+no null discount,stg_orders,0,0,error
+no null signup_date,stg_customers,0,0,error
+orders have valid customer,stg_orders,0,0,error
+resolution_hours match timestamps,stg_support_tickets,0,0,error
+tickets have valid timeline,stg_support_tickets,0,0,error

@@ -1,0 +1,21 @@
+{
+  "raw": {
+    "products": 302,
+    "customers": 20080,
+    "orders": 79558,
+    "order_items": 144566,
+    "marketing_touches": 130019,
+    "support_tickets": 3634,
+    "returns": 5928
+  },
+  "staging": {
+    "stg_products": 300,
+    "stg_customers": 19960,
+    "stg_orders": 78841,
+    "stg_order_items": 142133,
+    "stg_marketing_touches": 129260,
+    "stg_support_tickets": 3605,
+    "stg_returns": 5598
+  },
+  "engine": "duckdb"
+}

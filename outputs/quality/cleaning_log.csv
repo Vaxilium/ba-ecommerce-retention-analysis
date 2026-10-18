@@ -1,0 +1,26 @@
+step_order,table_name,issue,rows_found,action,rule_applied
+1,products,cost above list price,3,fixed,clamp cost to 90 percent of list_price
+2,products,null category,2,fixed,set to Uncategorized
+3,products,duplicate product_id,2,dropped,keep first row per product_id
+4,customers,null signup_date,41,dropped,row cannot be dated; drop
+5,customers,duplicate customer_id,80,dropped,keep first row per customer_id
+6,customers,null / non-canonical country,100,fixed,trim/lower/accents to canonical name; null to Unknown
+7,customers,duplicate emails across customers,160,flagged,kept (email is not a primary key)
+8,orders,future order dates (after 2025-12-31),35,dropped,beyond data snapshot
+9,orders,duplicate order_id,474,dropped,keep first row per order_id
+10,orders,orders of invalid/dropped customers,210,dropped,no valid customer reference
+11,orders,null / non-canonical ship_country,475,fixed,trim/lower/accents to canonical name; null to Unknown
+12,orders,negative shipping_cost,237,fixed,set to 0.0
+13,orders,null discount_rate,401,fixed,set to 0.0 (no discount recorded)
+14,order_items,quantity <= 0,867,dropped,returns live in returns table; negative lines are errors
+15,order_items,unit_price <= 0,578,dropped,invalid price
+16,order_items,orphan order_id or product_id,997,dropped,referential integrity
+17,marketing_touches,duplicate touch_id,388,dropped,keep first row per touch_id
+18,marketing_touches,null or uppercase channel,1942,fixed,lowercase; null to unknown
+19,marketing_touches,future touch dates,143,dropped,beyond data snapshot
+20,support_tickets,resolved_at before opened_at,21,dropped,impossible timeline
+21,support_tickets,null topic,14,fixed,set to unknown
+22,support_tickets,orphan customer_id,8,dropped,no valid customer reference
+23,returns,negative refund_amount,29,dropped,refunds cannot be negative
+24,returns,null reason,29,fixed,set to unknown
+25,returns,future requested_date,283,dropped,beyond data snapshot

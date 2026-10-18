@@ -7,5 +7,6 @@ data/raw/*.duckdb
 data/raw/*.db
 outputs/*.duckdb
 outputs/*.db
+outputs/marts/
 *.duckdb.wal
 .DS_Store
