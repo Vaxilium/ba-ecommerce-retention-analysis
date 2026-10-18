@@ -29,11 +29,11 @@ hasta el modelado SQL, el análisis estadístico y una recomendación con costos
 | Artefacto | Qué es |
 |---|---|
 | 📊 **[Dashboard interactivo](https://vaxilium.github.io/ba-ecommerce-retention-analysis/dashboard.html)** | Reporte plotly en vivo (también autocontenido en `docs/dashboard.html` — abrir localmente) |
-| 📄 **[Resumen ejecutivo](docs/executive-summary.md)** | Lectura de una página para stakeholders |
-| 💰 **[Caso de negocio](docs/06-business-case.md)** + **[Excel](outputs/business_case.xlsx)** | Escenarios con fórmulas vivas, sensibilidad, payback |
-| 🗺️ **[Roadmap RICE](docs/07-roadmap.md)** · **[Historias de usuario](docs/08-user-stories.md)** | Iniciativas priorizadas con criterios de aceptación |
-| 🔍 **[Planteamiento](docs/01-problem-framing.md)** · **[Modelo de datos](docs/02-data-model.md)** · **[Calidad](docs/03-data-quality.md)** | Fundamentos BA |
-| 🧮 **[Hallazgos SQL](docs/04-sql-findings.md)** · **[Análisis](docs/05-analytics.md)** | Análisis completo, métodos y limitaciones |
+| 📄 **[Resumen ejecutivo](docs/executive-summary.es.md)** ([EN](docs/executive-summary.md)) | Lectura de una página para stakeholders |
+| 💰 **[Caso de negocio](docs/06-business-case.es.md)** ([EN](docs/06-business-case.md)) + **[Excel](outputs/business_case.xlsx)** | Escenarios con fórmulas vivas, sensibilidad, payback |
+| 🗺️ **[Roadmap RICE](docs/07-roadmap.es.md)** ([EN](docs/07-roadmap.md)) · **[Historias de usuario](docs/08-user-stories.es.md)** ([EN](docs/08-user-stories.md)) | Iniciativas priorizadas con criterios de aceptación |
+| 🔍 **[Planteamiento](docs/01-problem-framing.md)** · **[Modelo de datos](docs/02-data-model.md)** · **[Calidad](docs/03-data-quality.md)** | Fundamentos BA (en inglés) |
+| 🧮 **[Hallazgos SQL](docs/04-sql-findings.md)** · **[Análisis](docs/05-analytics.md)** | Análisis completo, métodos y limitaciones (en inglés) |
 
 ## Cómo funciona el pipeline
 

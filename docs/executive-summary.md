@@ -1,5 +1,7 @@
 # Executive summary — Altiplano Goods retention diagnostic
 
+> 🌐 _Versión en español: [executive-summary.es.md](executive-summary.es.md)_
+
 **Prepared from:** synthetic order-level dataset, Jan 2024 – Dec 2025 (79k orders, 20k customers).
 All figures below are computed by the repo's pipeline and reproduced by `make all`.
 
@@ -14,9 +16,8 @@ not a vanity metric: the top revenue decile alone carries **53%** of sales.
 
 1. **Mix shift to low-repeat acquisition.** Paid social (repeat 22.7%) and
    influencer grew while referral/organic/email (repeat 44.0%–38.6%)
-   shrank. Decomposition: **7.1 pp of the
-   8.5 pp decline is mix**, 1.3 pp
-   within-segment behaviour.
+   shrank. Decomposition: **7.1 pp of the 8.5 pp decline is mix**,
+   1.3 pp within-segment behaviour.
 2. **Deep discounting poisons retention.** Heavy-discount first orders repeat at
    **22.4%** vs **37.4%** full-price, and their
    12-month margin is **$126 vs $248**.

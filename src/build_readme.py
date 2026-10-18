@@ -62,9 +62,9 @@ statistical analysis and a costed recommendation, with every artifact reproducib
 | Artifact | What it is |
 |---|---|
 | 📊 **[Interactive dashboard](https://vaxilium.github.io/ba-ecommerce-retention-analysis/dashboard.html)** | Live plotly report (also self-contained at `docs/dashboard.html` — open locally) |
-| 📄 **[Executive summary](docs/executive-summary.md)** | One-page read-out for busy stakeholders |
-| 💰 **[Business case](docs/06-business-case.md)** + **[Excel workbook](outputs/business_case.xlsx)** | Live-formula scenarios, sensitivity, payback |
-| 🗺️ **[RICE roadmap](docs/07-roadmap.md)** · **[User stories](docs/08-user-stories.md)** | Prioritised initiatives with acceptance criteria |
+| 📄 **[Executive summary](docs/executive-summary.md)** ([ES](docs/executive-summary.es.md)) | One-page read-out for busy stakeholders |
+| 💰 **[Business case](docs/06-business-case.md)** ([ES](docs/06-business-case.es.md)) + **[Excel workbook](outputs/business_case.xlsx)** | Live-formula scenarios, sensitivity, payback |
+| 🗺️ **[RICE roadmap](docs/07-roadmap.md)** ([ES](docs/07-roadmap.es.md)) · **[User stories](docs/08-user-stories.md)** ([ES](docs/08-user-stories.es.md)) | Prioritised initiatives with acceptance criteria |
 | 🔍 **[Problem framing](docs/01-problem-framing.md)** · **[Data model](docs/02-data-model.md)** · **[Data quality](docs/03-data-quality.md)** | BA foundations: KPI tree, hypotheses, warehouse design, DQ report |
 | 🧮 **[SQL findings](docs/04-sql-findings.md)** · **[Analytics deep-dive](docs/05-analytics.md)** | Full analysis, methods and limitations |
 
@@ -151,11 +151,11 @@ hasta el modelado SQL, el análisis estadístico y una recomendación con costos
 | Artefacto | Qué es |
 |---|---|
 | 📊 **[Dashboard interactivo](https://vaxilium.github.io/ba-ecommerce-retention-analysis/dashboard.html)** | Reporte plotly en vivo (también autocontenido en `docs/dashboard.html` — abrir localmente) |
-| 📄 **[Resumen ejecutivo](docs/executive-summary.md)** | Lectura de una página para stakeholders |
-| 💰 **[Caso de negocio](docs/06-business-case.md)** + **[Excel](outputs/business_case.xlsx)** | Escenarios con fórmulas vivas, sensibilidad, payback |
-| 🗺️ **[Roadmap RICE](docs/07-roadmap.md)** · **[Historias de usuario](docs/08-user-stories.md)** | Iniciativas priorizadas con criterios de aceptación |
-| 🔍 **[Planteamiento](docs/01-problem-framing.md)** · **[Modelo de datos](docs/02-data-model.md)** · **[Calidad](docs/03-data-quality.md)** | Fundamentos BA |
-| 🧮 **[Hallazgos SQL](docs/04-sql-findings.md)** · **[Análisis](docs/05-analytics.md)** | Análisis completo, métodos y limitaciones |
+| 📄 **[Resumen ejecutivo](docs/executive-summary.es.md)** ([EN](docs/executive-summary.md)) | Lectura de una página para stakeholders |
+| 💰 **[Caso de negocio](docs/06-business-case.es.md)** ([EN](docs/06-business-case.md)) + **[Excel](outputs/business_case.xlsx)** | Escenarios con fórmulas vivas, sensibilidad, payback |
+| 🗺️ **[Roadmap RICE](docs/07-roadmap.es.md)** ([EN](docs/07-roadmap.md)) · **[Historias de usuario](docs/08-user-stories.es.md)** ([EN](docs/08-user-stories.md)) | Iniciativas priorizadas con criterios de aceptación |
+| 🔍 **[Planteamiento](docs/01-problem-framing.md)** · **[Modelo de datos](docs/02-data-model.md)** · **[Calidad](docs/03-data-quality.md)** | Fundamentos BA (en inglés) |
+| 🧮 **[Hallazgos SQL](docs/04-sql-findings.md)** · **[Análisis](docs/05-analytics.md)** | Análisis completo, métodos y limitaciones (en inglés) |
 
 ## Cómo funciona el pipeline
 

@@ -212,10 +212,25 @@ github.com/Vaxilium · linkedin.com/in/franco-tilleria-centurion</footer></main>
     print("wrote docs/dashboard.html")
 
 
+def pool_control_lift_margin() -> float:
+    """Base-case annual net benefit of the win-back program (quarterly waves)."""
+    pool = AB["design"]["population"]
+    incr = AB["observed"]["control_rate"] * AB["observed"]["rel_lift"]
+    gm = pool * incr * AB["economics"]["avg_margin_per_order"] * 4
+    cost = pool * AB["economics"]["cost_per_email"] * 4
+    return gm - cost
+
+
 def build_exec_summary() -> None:
     k, c, ab_o, ab_e = SUM["kpi"], SUM["concentration"], AB["observed"], AB["economics"]
     champs = next(r for r in RFM["profiles"] if r["segment"] == "champions")
+    mix = abs(SUM["decomposition"]["joint_channel_x_discount"]["mix_pp"])
+    cells = abs(SUM["decomposition"]["joint_channel_x_discount"]["rate_pp"])
+    base_net = pool_control_lift_margin()
+
     md = f"""# Executive summary — Altiplano Goods retention diagnostic
+
+> 🌐 _Versión en español: [executive-summary.es.md](executive-summary.es.md)_
 
 **Prepared from:** synthetic order-level dataset, Jan 2024 – Dec 2025 (79k orders, 20k customers).
 All figures below are computed by the repo's pipeline and reproduced by `make all`.
@@ -231,9 +246,8 @@ not a vanity metric: the top revenue decile alone carries **{c['top_decile_share
 
 1. **Mix shift to low-repeat acquisition.** Paid social (repeat {SUM['channel'][5]['repeat_rate_90d']:.1%}) and
    influencer grew while referral/organic/email (repeat {SUM['channel'][0]['repeat_rate_90d']:.1%}–{SUM['channel'][2]['repeat_rate_90d']:.1%})
-   shrank. Decomposition: **{abs(SUM['decomposition']['joint_channel_x_discount']['mix_pp']):.1f} pp of the
-   {abs(k['decline_pp']):.1f} pp decline is mix**, {abs(SUM['decomposition']['joint_channel_x_discount']['rate_pp']):.1f} pp
-   within-segment behaviour.
+   shrank. Decomposition: **{mix:.1f} pp of the {abs(k['decline_pp']):.1f} pp decline is mix**,
+   {cells:.1f} pp within-segment behaviour.
 2. **Deep discounting poisons retention.** Heavy-discount first orders repeat at
    **{SUM['discount'][3]['repeat_rate_90d']:.1%}** vs **{SUM['discount'][0]['repeat_rate_90d']:.1%}** full-price, and their
    12-month margin is **${SUM['clv']['by_band'][3]['avg_margin_12m']:.0f} vs ${SUM['clv']['by_band'][0]['avg_margin_12m']:.0f}**.
@@ -248,7 +262,7 @@ not a vanity metric: the top revenue decile alone carries **{c['top_decile_share
 
 ## Recommendations (prioritised in docs/07-roadmap.md)
 
-1. **Launch the quarterly win-back program** (base case net benefit ≈ $19k/yr at current pool size; scale with pool).
+1. **Launch the quarterly win-back program** (base case net benefit ≈ ${base_net/1000:.0f}k/yr at current pool size; scale with pool).
 2. **Fix the Colombia courier and pause paid-social scale-up there** until delay < 3 days.
 3. **Cap acquisition discounts at light/medium bands**; replace depth with referral and email incentives.
 4. **Protect champions ({champs['pct_customers']:.0f}% of customers, {champs['pct_revenue']:.0f}% of revenue)** with
@@ -260,8 +274,57 @@ not a vanity metric: the top revenue decile alone carries **{c['top_decile_share
 Synthetic data; the pipeline, method and decision logic are the deliverable. Effects are directional,
 estimated with CIs where it matters, and every number regenerates via `make all`.
 """
+
+    es = f"""# Resumen ejecutivo — Diagnóstico de retención de Altiplano Goods
+
+> 🌐 _English version: [executive-summary.md](executive-summary.md)_
+
+**Elaborado a partir de:** dataset sintético a nivel de pedido, ene 2024 – dic 2025 (79 mil pedidos, 20 mil clientes).
+Todas las cifras provienen del pipeline del repositorio y se reproducen con `make all`.
+
+## El problema
+
+La tasa de recompra a 90 días cayó de **{k['repeat_rate_h1_2024']:.1%}** (S1 2024) a
+**{k['repeat_rate_q3_2025']:.1%}** (T3 2025) — **{k['decline_pp']:+.1f} pp** ({k['decline_rel_pct']:+.0f}% relativo).
+Como los clientes recurrentes generan **{SUM['repeat_revenue_share']:.0%}** del ingreso, es un problema de
+ingresos, no una métrica de vanidad: el decil superior concentra **{c['top_decile_share']:.0%}** de las ventas.
+
+## Qué lo está impulsando
+
+1. **Cambio de mix hacia adquisición de baja recompra.** Paid social (recompra {SUM['channel'][5]['repeat_rate_90d']:.1%}) e
+   influencer crecieron mientras referral/orgánico/email (recompra {SUM['channel'][0]['repeat_rate_90d']:.1%}–{SUM['channel'][2]['repeat_rate_90d']:.1%})
+   se redujeron. Descomposición: **{mix:.1f} pp de la caída de {abs(k['decline_pp']):.1f} pp es mix**;
+   {cells:.1f} pp es comportamiento intra-segmento.
+2. **El descuento profundo envenena la retención.** Las primeras compras con descuento alto recompran
+   **{SUM['discount'][3]['repeat_rate_90d']:.1%}** vs **{SUM['discount'][0]['repeat_rate_90d']:.1%}** a precio pleno, y su
+   margen a 12 meses es **${SUM['clv']['by_band'][3]['avg_margin_12m']:.0f} vs ${SUM['clv']['by_band'][0]['avg_margin_12m']:.0f}**.
+3. **Las fallas logísticas están concentradas.** Colombia: demora de primera entrega
+   {SUM['delay_colombia']['pre_2025h2']:.1f} → {SUM['delay_colombia']['from_2025h2']:.1f} días,
+   recompra {SUM['delay_colombia']['repeat_pre']:.1%} → {SUM['delay_colombia']['repeat_post']:.1%}.
+4. **Un modelo puede priorizar clientes.** Modelo logístico (AUC test {CHURN['auc_test']:.2f}); el decil superior
+   recompra {CHURN['decile_lift'][-1]['lift_vs_base']:.1f}× la tasa base — los compradores que merecen trato preferente
+   se identifican desde el día 0.
+5. **La maniobra de win-back funciona.** Sobre {AB['design']['population']:,} clientes inactivos con opt-in, el email elevó
+   la reactivación a 60 días de {ab_o['control_rate']:.1%} → {ab_o['treatment_rate']:.1%}
+   (p={ab_o['p_value']:.4f}); economía: **ROI {ab_e['roi']:.0f}×, payback dentro de la primera ola**.
+
+## Recomendaciones (priorizadas en docs/07-roadmap.es.md)
+
+1. **Lanzar el programa trimestral de win-back** (beneficio neto caso base ≈ ${base_net/1000:.0f}k USD/año con el pool actual; escala con el pool).
+2. **Arreglar el courier de Colombia y pausar la escala de paid social allí** hasta que la demora sea < 3 días.
+3. **Limitar los descuentos de adquisición a bandas light/medium**; reemplazar profundidad por incentivos de referral y email.
+4. **Proteger a los champions ({champs['pct_customers']:.0f}% de los clientes, {champs['pct_revenue']:.0f}% del ingreso)** con
+   niveles de servicio VIP, no con descuentos.
+5. **Desplegar el triaje por score de churn** para derivar los primeros pedidos en riesgo a soporte antes de que se pierdan en silencio.
+
+## Advertencias
+
+Datos sintéticos; el entregable es el pipeline, el método y la lógica de decisión. Los efectos son
+direccionales, estimados con intervalos de confianza donde importa, y cada número se regenera con `make all`.
+"""
     Path("docs/executive-summary.md").write_text(md)
-    print("wrote docs/executive-summary.md")
+    Path("docs/executive-summary.es.md").write_text(es)
+    print("wrote docs/executive-summary.md and docs/executive-summary.es.md")
 
 
 if __name__ == "__main__":
