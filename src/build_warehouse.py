@@ -162,8 +162,17 @@ def main() -> None:
     print("staging:", stg_counts)
 
     args.marts_dir.mkdir(parents=True, exist_ok=True)
+    order_keys = {  # deterministic export order (primary/leading key per mart)
+        "dim_customer": "customer_id",
+        "mart_customer_orders": "customer_id, order_seq",
+        "fct_orders": "order_id",
+        "fct_order_items": "order_id, order_item_id",
+        "mart_cohort_retention": "cohort_month",
+        "mart_rfm": "customer_id",
+    }
     for table in MART_TABLES:
-        engine.query_df(f"SELECT * FROM {table}").to_csv(args.marts_dir / f"{table}.csv", index=False)
+        order = f" ORDER BY {order_keys[table]}" if table in order_keys else ""
+        engine.query_df(f"SELECT * FROM {table}{order}").to_csv(args.marts_dir / f"{table}.csv", index=False)
 
     Path("outputs/quality").mkdir(parents=True, exist_ok=True)
     engine.query_df("SELECT * FROM cleaning_log ORDER BY step_order").to_csv("outputs/quality/cleaning_log.csv", index=False)

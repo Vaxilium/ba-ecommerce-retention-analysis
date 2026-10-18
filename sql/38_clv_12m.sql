@@ -15,4 +15,5 @@ WHERE d.first_order_date IS NOT NULL
   AND date_diff('day', d.first_order_date, DATE '2025-12-31') >= 365
   AND date_diff('day', d.first_order_date, o.order_date) <= 365
 GROUP BY d.customer_id, d.acquisition_channel, d.country, d.first_order_discount_band,
-         d.is_repeat_ever, cohort_year;
+         d.is_repeat_ever, cohort_year
+ORDER BY d.customer_id;

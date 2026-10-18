@@ -55,6 +55,7 @@ def main() -> None:
                r.r_score, r.f_score, r.m_score,
                d.acquisition_channel, d.country, d.first_order_discount_band
         FROM mart_rfm r JOIN dim_customer d USING (customer_id)
+        ORDER BY r.customer_id
     """)
     engine.close()
 

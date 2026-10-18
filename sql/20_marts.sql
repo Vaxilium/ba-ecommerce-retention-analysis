@@ -130,12 +130,13 @@ WITH agg AS (
     WHERE o.order_status <> 'cancelled'
     GROUP BY o.customer_id
 )
--- r/m use NTILE (continuous distributions). f uses explicit thresholds because
--- ~2/3 of customers sit on frequency = 1 (NTILE would split ties arbitrarily).
+-- r/m use NTILE (continuous distributions) with customer_id as a deterministic
+-- tie-breaker so identical data always yields identical tiles. f uses explicit
+-- thresholds because ~2/3 of customers sit on frequency = 1.
 SELECT customer_id, recency_days, frequency, ROUND(monetary, 2) AS monetary,
-       NTILE(5) OVER (ORDER BY recency_days DESC) AS r_score,
+       NTILE(5) OVER (ORDER BY recency_days DESC, customer_id) AS r_score,
        CASE WHEN frequency >= 6 THEN 5 WHEN frequency >= 4 THEN 4
             WHEN frequency = 3 THEN 3 WHEN frequency = 2 THEN 2
             ELSE 1 END AS f_score,
-       NTILE(5) OVER (ORDER BY monetary) AS m_score
+       NTILE(5) OVER (ORDER BY monetary, customer_id) AS m_score
 FROM agg;

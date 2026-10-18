@@ -18,7 +18,7 @@
       "customers": 2061,
       "avg_recency_days": 133.26,
       "avg_frequency": 3.45,
-      "avg_monetary": 476.73,
+      "avg_monetary": 476.88,
       "avg_r_score": 3.0,
       "pct_customers": 10.7,
       "pct_revenue": 10.3,
@@ -29,7 +29,7 @@
       "customers": 1532,
       "avg_recency_days": 431.36,
       "avg_frequency": 1.48,
-      "avg_monetary": 348.08,
+      "avg_monetary": 347.9,
       "avg_r_score": 1.5,
       "pct_customers": 7.9,
       "pct_revenue": 5.6,
@@ -51,7 +51,7 @@
       "customers": 2053,
       "avg_recency_days": 435.62,
       "avg_frequency": 1.02,
-      "avg_monetary": 153.92,
+      "avg_monetary": 153.91,
       "avg_r_score": 1.48,
       "pct_customers": 10.6,
       "pct_revenue": 3.3,
@@ -74,7 +74,7 @@
       "avg_recency_days": 29.11,
       "avg_frequency": 3.0,
       "avg_monetary": 385.53,
-      "avg_r_score": 4.47,
+      "avg_r_score": 4.46,
       "pct_customers": 2.0,
       "pct_revenue": 1.6,
       "recommended_action": "Upsell & cross-sell: bundles, category expansion, VIP tier invite."
@@ -114,9 +114,9 @@
     "at_risk": {
       "email": 6.5,
       "influencer": 5.4,
-      "organic_search": 22.8,
+      "organic_search": 22.9,
       "paid_search": 19.7,
-      "paid_social": 40.8,
+      "paid_social": 40.7,
       "referral": 4.7
     },
     "champions": {
@@ -130,7 +130,7 @@
     "hibernating": {
       "email": 5.7,
       "influencer": 5.5,
-      "organic_search": 19.3,
+      "organic_search": 19.4,
       "paid_search": 18.5,
       "paid_social": 46.3,
       "referral": 4.7
@@ -154,9 +154,9 @@
     "needs_attention": {
       "email": 5.3,
       "influencer": 3.4,
-      "organic_search": 21.2,
+      "organic_search": 21.1,
       "paid_search": 16.6,
-      "paid_social": 49.0,
+      "paid_social": 49.1,
       "referral": 4.5
     },
     "new": {

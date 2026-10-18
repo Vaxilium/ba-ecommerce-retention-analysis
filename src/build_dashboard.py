@@ -160,7 +160,8 @@ def build_dashboard() -> None:
     wide = {0, 1, 4, 8}
     divs = "".join(
         f'<div class="{"wide" if i in wide else ""}">'
-        + f.to_html(full_html=False, include_plotlyjs=False, config={"displayModeBar": False})
+        + f.to_html(full_html=False, include_plotlyjs=False, config={"displayModeBar": False},
+                    div_id=f"chart-{i}")
         + "</div>"
         for i, f in enumerate(charts))
     recs = f"""

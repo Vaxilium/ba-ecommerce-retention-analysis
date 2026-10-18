@@ -8,11 +8,35 @@ formulas in Python (workbook is the interactive artifact; this file is the recor
 from __future__ import annotations
 
 import json
+import re
+import shutil
+import zipfile
+from datetime import datetime
 from pathlib import Path
 
 from openpyxl import Workbook
-from openpyxl.styles import Alignment, Font, PatternFill
+from openpyxl.styles import Font, PatternFill
 from openpyxl.utils import get_column_letter
+
+FROZEN_DT = datetime(2026, 1, 1, 0, 0, 0)
+
+
+def freeze_xlsx(path: Path) -> None:
+    """Rewrite the zip with fixed metadata so rebuilds are byte-identical."""
+    tmp = path.with_suffix(".tmp.xlsx")
+    stamp = FROZEN_DT.strftime("%Y-%m-%dT%H:%M:%SZ")
+    with zipfile.ZipFile(path) as zin, zipfile.ZipFile(tmp, "w", zipfile.ZIP_DEFLATED) as zout:
+        for item in zin.infolist():
+            data = zin.read(item.filename)
+            if item.filename == "docProps/core.xml":
+                data = re.sub(rb"<dcterms:modified[^>]*>[^<]*</dcterms:modified>",
+                              f"<dcterms:modified xsi:type=\"dcterms:W3CDTF\">{stamp}</dcterms:modified>".encode(),
+                              data)
+            zi = zipfile.ZipInfo(item.filename, date_time=(1980, 1, 1, 0, 0, 0))
+            zi.compress_type = item.compress_type
+            zi.external_attr = item.external_attr
+            zout.writestr(zi, data)
+    shutil.move(tmp, path)
 
 AB = json.loads(Path("outputs/analysis/ab_test.json").read_text())
 OUT_XLSX = Path("outputs/business_case.xlsx")
@@ -150,8 +174,11 @@ def build_workbook(inputs: dict) -> None:
     for col in "BCDEFGH":
         ws.column_dimensions[col].width = 16
 
+    wb.properties.created = FROZEN_DT
+    wb.properties.modified = FROZEN_DT
     OUT_XLSX.parent.mkdir(parents=True, exist_ok=True)
     wb.save(OUT_XLSX)
+    freeze_xlsx(OUT_XLSX)
 
 
 def mirror_in_python(inp: dict) -> dict:
