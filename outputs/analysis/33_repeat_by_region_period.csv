@@ -1,0 +1,15 @@
+country,period,customers,repeat_rate_90d,avg_delay_days
+Argentina,from_2025H2,260,0.3192,1.45
+Argentina,pre_2025H2,1116,0.2787,1.69
+Brazil,from_2025H2,568,0.243,1.34
+Brazil,pre_2025H2,2893,0.3101,1.72
+Chile,from_2025H2,441,0.2925,1.4
+Chile,pre_2025H2,1931,0.3516,1.72
+Colombia,from_2025H2,441,0.1905,5.85
+Colombia,pre_2025H2,2062,0.3109,1.75
+Mexico,from_2025H2,728,0.2747,1.45
+Mexico,pre_2025H2,3156,0.3238,1.73
+Peru,from_2025H2,367,0.3106,1.5
+Peru,pre_2025H2,1657,0.309,1.65
+Unknown,from_2025H2,15,0.3333,2.07
+Unknown,pre_2025H2,56,0.2857,1.5

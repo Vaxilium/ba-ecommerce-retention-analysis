@@ -1,0 +1,5 @@
+ticket_bucket,customers,repeat_rate_90d
+1_no_ticket,14979,0.3078
+2_resolved_24h,379,0.3008
+3_resolved_72h,281,0.331
+4_over_72h,52,0.2692

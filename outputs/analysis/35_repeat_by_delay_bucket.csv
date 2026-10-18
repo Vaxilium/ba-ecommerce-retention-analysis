@@ -1,0 +1,6 @@
+delay_bucket,customers,repeat_rate_90d
+1_zero_or_early,3827,0.312
+2_one_to_3d,9733,0.3143
+3_four_to_5d,1356,0.2869
+4_six_to_10d,743,0.245
+5_over_10d,32,0.2188

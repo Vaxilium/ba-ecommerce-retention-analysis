@@ -1,0 +1,2191 @@
+{
+  "kpi": {
+    "repeat_rate_h1_2024": 0.3527,
+    "repeat_rate_q3_2025": 0.2682,
+    "decline_pp": -8.5,
+    "decline_rel_pct": -24.0,
+    "customers_analyzed": 15691,
+    "valid_orders": 75767
+  },
+  "channel": [
+    {
+      "acquisition_channel": "referral",
+      "customers": 790,
+      "repeaters": 348.0,
+      "repeat_rate_90d": 0.4405,
+      "avg_first_order_value": 131.29
+    },
+    {
+      "acquisition_channel": "organic_search",
+      "customers": 3506,
+      "repeaters": 1387.0,
+      "repeat_rate_90d": 0.3956,
+      "avg_first_order_value": 134.52
+    },
+    {
+      "acquisition_channel": "email",
+      "customers": 976,
+      "repeaters": 377.0,
+      "repeat_rate_90d": 0.3863,
+      "avg_first_order_value": 133.84
+    },
+    {
+      "acquisition_channel": "paid_search",
+      "customers": 2921,
+      "repeaters": 987.0,
+      "repeat_rate_90d": 0.3379,
+      "avg_first_order_value": 131.57
+    },
+    {
+      "acquisition_channel": "influencer",
+      "customers": 632,
+      "repeaters": 177.0,
+      "repeat_rate_90d": 0.2801,
+      "avg_first_order_value": 138.14
+    },
+    {
+      "acquisition_channel": "paid_social",
+      "customers": 6866,
+      "repeaters": 1555.0,
+      "repeat_rate_90d": 0.2265,
+      "avg_first_order_value": 127.51
+    }
+  ],
+  "discount": [
+    {
+      "first_order_discount_band": "none",
+      "customers": 3772,
+      "repeaters": 1412.0,
+      "repeat_rate_90d": 0.3743,
+      "avg_first_order_value": 164.14,
+      "avg_discount": 0.0
+    },
+    {
+      "first_order_discount_band": "light",
+      "customers": 3583,
+      "repeaters": 1264.0,
+      "repeat_rate_90d": 0.3528,
+      "avg_first_order_value": 152.28,
+      "avg_discount": 0.1
+    },
+    {
+      "first_order_discount_band": "medium",
+      "customers": 2716,
+      "repeaters": 899.0,
+      "repeat_rate_90d": 0.331,
+      "avg_first_order_value": 123.84,
+      "avg_discount": 0.23
+    },
+    {
+      "first_order_discount_band": "heavy",
+      "customers": 5620,
+      "repeaters": 1256.0,
+      "repeat_rate_90d": 0.2235,
+      "avg_first_order_value": 98.24,
+      "avg_discount": 0.4
+    }
+  ],
+  "region_period": [
+    {
+      "country": "Argentina",
+      "period": "from_2025H2",
+      "customers": 260,
+      "repeat_rate_90d": 0.3192,
+      "avg_delay_days": 1.45
+    },
+    {
+      "country": "Argentina",
+      "period": "pre_2025H2",
+      "customers": 1116,
+      "repeat_rate_90d": 0.2787,
+      "avg_delay_days": 1.69
+    },
+    {
+      "country": "Brazil",
+      "period": "from_2025H2",
+      "customers": 568,
+      "repeat_rate_90d": 0.243,
+      "avg_delay_days": 1.34
+    },
+    {
+      "country": "Brazil",
+      "period": "pre_2025H2",
+      "customers": 2893,
+      "repeat_rate_90d": 0.3101,
+      "avg_delay_days": 1.72
+    },
+    {
+      "country": "Chile",
+      "period": "from_2025H2",
+      "customers": 441,
+      "repeat_rate_90d": 0.2925,
+      "avg_delay_days": 1.4
+    },
+    {
+      "country": "Chile",
+      "period": "pre_2025H2",
+      "customers": 1931,
+      "repeat_rate_90d": 0.3516,
+      "avg_delay_days": 1.72
+    },
+    {
+      "country": "Colombia",
+      "period": "from_2025H2",
+      "customers": 441,
+      "repeat_rate_90d": 0.1905,
+      "avg_delay_days": 5.85
+    },
+    {
+      "country": "Colombia",
+      "period": "pre_2025H2",
+      "customers": 2062,
+      "repeat_rate_90d": 0.3109,
+      "avg_delay_days": 1.75
+    },
+    {
+      "country": "Mexico",
+      "period": "from_2025H2",
+      "customers": 728,
+      "repeat_rate_90d": 0.2747,
+      "avg_delay_days": 1.45
+    },
+    {
+      "country": "Mexico",
+      "period": "pre_2025H2",
+      "customers": 3156,
+      "repeat_rate_90d": 0.3238,
+      "avg_delay_days": 1.73
+    },
+    {
+      "country": "Peru",
+      "period": "from_2025H2",
+      "customers": 367,
+      "repeat_rate_90d": 0.3106,
+      "avg_delay_days": 1.5
+    },
+    {
+      "country": "Peru",
+      "period": "pre_2025H2",
+      "customers": 1657,
+      "repeat_rate_90d": 0.309,
+      "avg_delay_days": 1.65
+    },
+    {
+      "country": "Unknown",
+      "period": "from_2025H2",
+      "customers": 15,
+      "repeat_rate_90d": 0.3333,
+      "avg_delay_days": 2.07
+    },
+    {
+      "country": "Unknown",
+      "period": "pre_2025H2",
+      "customers": 56,
+      "repeat_rate_90d": 0.2857,
+      "avg_delay_days": 1.5
+    }
+  ],
+  "delay_bucket": [
+    {
+      "delay_bucket": "1_zero_or_early",
+      "customers": 3827,
+      "repeat_rate_90d": 0.312
+    },
+    {
+      "delay_bucket": "2_one_to_3d",
+      "customers": 9733,
+      "repeat_rate_90d": 0.3143
+    },
+    {
+      "delay_bucket": "3_four_to_5d",
+      "customers": 1356,
+      "repeat_rate_90d": 0.2869
+    },
+    {
+      "delay_bucket": "4_six_to_10d",
+      "customers": 743,
+      "repeat_rate_90d": 0.245
+    },
+    {
+      "delay_bucket": "5_over_10d",
+      "customers": 32,
+      "repeat_rate_90d": 0.2188
+    }
+  ],
+  "ticket": [
+    {
+      "ticket_bucket": "1_no_ticket",
+      "customers": 14979,
+      "repeat_rate_90d": 0.3078
+    },
+    {
+      "ticket_bucket": "2_resolved_24h",
+      "customers": 379,
+      "repeat_rate_90d": 0.3008
+    },
+    {
+      "ticket_bucket": "3_resolved_72h",
+      "customers": 281,
+      "repeat_rate_90d": 0.331
+    },
+    {
+      "ticket_bucket": "4_over_72h",
+      "customers": 52,
+      "repeat_rate_90d": 0.2692
+    }
+  ],
+  "delay_colombia": {
+    "pre_2025h2": 1.68,
+    "from_2025h2": 6.37,
+    "repeat_pre": 0.3109,
+    "repeat_post": 0.1905
+  },
+  "time_to_second": {
+    "median_days_2024_cohorts": 30.0,
+    "median_days_2025_cohorts": 28.0,
+    "buckets": [
+      {
+        "cohort_year": 2024,
+        "time_bucket": "1_within_30d",
+        "customers": 1622,
+        "share_of_cohort": 0.2037
+      },
+      {
+        "cohort_year": 2024,
+        "time_bucket": "2_31_to_60d",
+        "customers": 692,
+        "share_of_cohort": 0.0869
+      },
+      {
+        "cohort_year": 2024,
+        "time_bucket": "3_61_to_90d",
+        "customers": 381,
+        "share_of_cohort": 0.0478
+      },
+      {
+        "cohort_year": 2024,
+        "time_bucket": "4_over_90d",
+        "customers": 491,
+        "share_of_cohort": 0.0617
+      },
+      {
+        "cohort_year": 2024,
+        "time_bucket": "never_in_window",
+        "customers": 4777,
+        "share_of_cohort": 0.5999
+      },
+      {
+        "cohort_year": 2025,
+        "time_bucket": "1_within_30d",
+        "customers": 1279,
+        "share_of_cohort": 0.1655
+      },
+      {
+        "cohort_year": 2025,
+        "time_bucket": "2_31_to_60d",
+        "customers": 562,
+        "share_of_cohort": 0.0727
+      },
+      {
+        "cohort_year": 2025,
+        "time_bucket": "3_61_to_90d",
+        "customers": 295,
+        "share_of_cohort": 0.0382
+      },
+      {
+        "cohort_year": 2025,
+        "time_bucket": "4_over_90d",
+        "customers": 225,
+        "share_of_cohort": 0.0291
+      },
+      {
+        "cohort_year": 2025,
+        "time_bucket": "never_in_window",
+        "customers": 5367,
+        "share_of_cohort": 0.6945
+      }
+    ]
+  },
+  "clv": {
+    "by_channel": [
+      {
+        "acquisition_channel": "referral",
+        "customers": 485,
+        "avg_revenue_12m": 753.11,
+        "avg_margin_12m": 255.53
+      },
+      {
+        "acquisition_channel": "organic_search",
+        "customers": 2085,
+        "avg_revenue_12m": 714.21,
+        "avg_margin_12m": 241.22
+      },
+      {
+        "acquisition_channel": "email",
+        "customers": 574,
+        "avg_revenue_12m": 660.94,
+        "avg_margin_12m": 225.47
+      },
+      {
+        "acquisition_channel": "paid_search",
+        "customers": 1679,
+        "avg_revenue_12m": 616.34,
+        "avg_margin_12m": 209.19
+      },
+      {
+        "acquisition_channel": "influencer",
+        "customers": 420,
+        "avg_revenue_12m": 549.22,
+        "avg_margin_12m": 185.03
+      },
+      {
+        "acquisition_channel": "paid_social",
+        "customers": 2698,
+        "avg_revenue_12m": 470.44,
+        "avg_margin_12m": 158.49
+      }
+    ],
+    "by_band": [
+      {
+        "first_order_discount_band": "none",
+        "customers": 2364,
+        "avg_revenue_12m": 685.59,
+        "avg_margin_12m": 248.37
+      },
+      {
+        "first_order_discount_band": "light",
+        "customers": 2003,
+        "avg_revenue_12m": 672.31,
+        "avg_margin_12m": 237.76
+      },
+      {
+        "first_order_discount_band": "medium",
+        "customers": 1456,
+        "avg_revenue_12m": 591.26,
+        "avg_margin_12m": 193.7
+      },
+      {
+        "first_order_discount_band": "heavy",
+        "customers": 2118,
+        "avg_revenue_12m": 443.94,
+        "avg_margin_12m": 126.27
+      }
+    ],
+    "by_repeat": [
+      {
+        "is_repeat_ever": 0,
+        "customers": 4755,
+        "avg_revenue_12m": 134.05,
+        "avg_margin_12m": 47.14
+      },
+      {
+        "is_repeat_ever": 1,
+        "customers": 3186,
+        "avg_revenue_12m": 1296.64,
+        "avg_margin_12m": 435.88
+      }
+    ]
+  },
+  "concentration": {
+    "top_decile_share": 0.5329,
+    "top_3_deciles_share": 0.8357,
+    "deciles": [
+      {
+        "revenue_decile": 1,
+        "customers": 1931,
+        "revenue": 5085791.06,
+        "revenue_share": 0.5329
+      },
+      {
+        "revenue_decile": 2,
+        "customers": 1931,
+        "revenue": 2005860.42,
+        "revenue_share": 0.2102
+      },
+      {
+        "revenue_decile": 3,
+        "customers": 1931,
+        "revenue": 883697.11,
+        "revenue_share": 0.0926
+      },
+      {
+        "revenue_decile": 4,
+        "customers": 1931,
+        "revenue": 496267.37,
+        "revenue_share": 0.052
+      },
+      {
+        "revenue_decile": 5,
+        "customers": 1931,
+        "revenue": 343179.03,
+        "revenue_share": 0.036
+      },
+      {
+        "revenue_decile": 6,
+        "customers": 1931,
+        "revenue": 252894.53,
+        "revenue_share": 0.0265
+      },
+      {
+        "revenue_decile": 7,
+        "customers": 1931,
+        "revenue": 188873.01,
+        "revenue_share": 0.0198
+      },
+      {
+        "revenue_decile": 8,
+        "customers": 1930,
+        "revenue": 139155.3,
+        "revenue_share": 0.0146
+      },
+      {
+        "revenue_decile": 9,
+        "customers": 1930,
+        "revenue": 95476.06,
+        "revenue_share": 0.01
+      },
+      {
+        "revenue_decile": 10,
+        "customers": 1930,
+        "revenue": 51640.07,
+        "revenue_share": 0.0054
+      }
+    ]
+  },
+  "repeat_revenue_share": 0.8269,
+  "decomposition": {
+    "actual_delta_pp": -8.45,
+    "period_1": "2024-01..2024-06",
+    "period_2": "2025-07..2025-09",
+    "joint_channel_x_discount": {
+      "mix_pp": -7.13,
+      "rate_pp": -1.32,
+      "total_pp": -8.45
+    },
+    "region": {
+      "mix_pp": -0.0,
+      "rate_pp": -8.45,
+      "total_pp": -8.45
+    }
+  },
+  "trend": [
+    {
+      "cohort_month": "2024-01",
+      "customers": 469,
+      "repeaters_90d": 170.0,
+      "repeat_rate_90d": 0.3625,
+      "censored": 0,
+      "rolling_3m_rate": 0.3625,
+      "delta_vs_12m_ago": NaN
+    },
+    {
+      "cohort_month": "2024-02",
+      "customers": 475,
+      "repeaters_90d": 177.0,
+      "repeat_rate_90d": 0.3726,
+      "censored": 0,
+      "rolling_3m_rate": 0.3676,
+      "delta_vs_12m_ago": NaN
+    },
+    {
+      "cohort_month": "2024-03",
+      "customers": 564,
+      "repeaters_90d": 209.0,
+      "repeat_rate_90d": 0.3706,
+      "censored": 0,
+      "rolling_3m_rate": 0.3686,
+      "delta_vs_12m_ago": NaN
+    },
+    {
+      "cohort_month": "2024-04",
+      "customers": 556,
+      "repeaters_90d": 191.0,
+      "repeat_rate_90d": 0.3435,
+      "censored": 0,
+      "rolling_3m_rate": 0.3622,
+      "delta_vs_12m_ago": NaN
+    },
+    {
+      "cohort_month": "2024-05",
+      "customers": 621,
+      "repeaters_90d": 212.0,
+      "repeat_rate_90d": 0.3414,
+      "censored": 0,
+      "rolling_3m_rate": 0.3518,
+      "delta_vs_12m_ago": NaN
+    },
+    {
+      "cohort_month": "2024-06",
+      "customers": 624,
+      "repeaters_90d": 208.0,
+      "repeat_rate_90d": 0.3333,
+      "censored": 0,
+      "rolling_3m_rate": 0.3394,
+      "delta_vs_12m_ago": NaN
+    },
+    {
+      "cohort_month": "2024-07",
+      "customers": 618,
+      "repeaters_90d": 226.0,
+      "repeat_rate_90d": 0.3657,
+      "censored": 0,
+      "rolling_3m_rate": 0.3468,
+      "delta_vs_12m_ago": NaN
+    },
+    {
+      "cohort_month": "2024-08",
+      "customers": 639,
+      "repeaters_90d": 219.0,
+      "repeat_rate_90d": 0.3427,
+      "censored": 0,
+      "rolling_3m_rate": 0.3472,
+      "delta_vs_12m_ago": NaN
+    },
+    {
+      "cohort_month": "2024-09",
+      "customers": 700,
+      "repeaters_90d": 252.0,
+      "repeat_rate_90d": 0.36,
+      "censored": 0,
+      "rolling_3m_rate": 0.3561,
+      "delta_vs_12m_ago": NaN
+    },
+    {
+      "cohort_month": "2024-10",
+      "customers": 797,
+      "repeaters_90d": 242.0,
+      "repeat_rate_90d": 0.3036,
+      "censored": 0,
+      "rolling_3m_rate": 0.3354,
+      "delta_vs_12m_ago": NaN
+    },
+    {
+      "cohort_month": "2024-11",
+      "customers": 988,
+      "repeaters_90d": 319.0,
+      "repeat_rate_90d": 0.3229,
+      "censored": 0,
+      "rolling_3m_rate": 0.3288,
+      "delta_vs_12m_ago": NaN
+    },
+    {
+      "cohort_month": "2024-12",
+      "customers": 912,
+      "repeaters_90d": 270.0,
+      "repeat_rate_90d": 0.2961,
+      "censored": 0,
+      "rolling_3m_rate": 0.3075,
+      "delta_vs_12m_ago": NaN
+    },
+    {
+      "cohort_month": "2025-01",
+      "customers": 714,
+      "repeaters_90d": 208.0,
+      "repeat_rate_90d": 0.2913,
+      "censored": 0,
+      "rolling_3m_rate": 0.3034,
+      "delta_vs_12m_ago": -0.0712
+    },
+    {
+      "cohort_month": "2025-02",
+      "customers": 672,
+      "repeaters_90d": 184.0,
+      "repeat_rate_90d": 0.2738,
+      "censored": 0,
+      "rolling_3m_rate": 0.2871,
+      "delta_vs_12m_ago": -0.0988
+    },
+    {
+      "cohort_month": "2025-03",
+      "customers": 860,
+      "repeaters_90d": 237.0,
+      "repeat_rate_90d": 0.2756,
+      "censored": 0,
+      "rolling_3m_rate": 0.2802,
+      "delta_vs_12m_ago": -0.095
+    },
+    {
+      "cohort_month": "2025-04",
+      "customers": 832,
+      "repeaters_90d": 215.0,
+      "repeat_rate_90d": 0.2584,
+      "censored": 0,
+      "rolling_3m_rate": 0.2693,
+      "delta_vs_12m_ago": -0.0851
+    },
+    {
+      "cohort_month": "2025-05",
+      "customers": 954,
+      "repeaters_90d": 290.0,
+      "repeat_rate_90d": 0.304,
+      "censored": 0,
+      "rolling_3m_rate": 0.2793,
+      "delta_vs_12m_ago": -0.0374
+    },
+    {
+      "cohort_month": "2025-06",
+      "customers": 876,
+      "repeaters_90d": 249.0,
+      "repeat_rate_90d": 0.2842,
+      "censored": 0,
+      "rolling_3m_rate": 0.2822,
+      "delta_vs_12m_ago": -0.0491
+    },
+    {
+      "cohort_month": "2025-07",
+      "customers": 884,
+      "repeaters_90d": 217.0,
+      "repeat_rate_90d": 0.2455,
+      "censored": 0,
+      "rolling_3m_rate": 0.2779,
+      "delta_vs_12m_ago": -0.1202
+    },
+    {
+      "cohort_month": "2025-08",
+      "customers": 931,
+      "repeaters_90d": 275.0,
+      "repeat_rate_90d": 0.2954,
+      "censored": 0,
+      "rolling_3m_rate": 0.275,
+      "delta_vs_12m_ago": -0.0473
+    },
+    {
+      "cohort_month": "2025-09",
+      "customers": 967,
+      "repeaters_90d": 254.0,
+      "repeat_rate_90d": 0.2627,
+      "censored": 0,
+      "rolling_3m_rate": 0.2679,
+      "delta_vs_12m_ago": -0.0973
+    },
+    {
+      "cohort_month": "2025-10",
+      "customers": 1071,
+      "repeaters_90d": 249.0,
+      "repeat_rate_90d": 0.2325,
+      "censored": 0,
+      "rolling_3m_rate": 0.2635,
+      "delta_vs_12m_ago": -0.0711
+    },
+    {
+      "cohort_month": "2025-11",
+      "customers": 1355,
+      "repeaters_90d": 238.0,
+      "repeat_rate_90d": 0.1756,
+      "censored": 1,
+      "rolling_3m_rate": 0.2236,
+      "delta_vs_12m_ago": -0.1473
+    },
+    {
+      "cohort_month": "2025-12",
+      "customers": 1308,
+      "repeaters_90d": 95.0,
+      "repeat_rate_90d": 0.0726,
+      "censored": 1,
+      "rolling_3m_rate": 0.1602,
+      "delta_vs_12m_ago": -0.2235
+    }
+  ],
+  "cohort_matrix": [
+    {
+      "cohort_month": "2024-01",
+      "month_idx": 0,
+      "active_customers": 469
+    },
+    {
+      "cohort_month": "2024-01",
+      "month_idx": 1,
+      "active_customers": 100
+    },
+    {
+      "cohort_month": "2024-01",
+      "month_idx": 2,
+      "active_customers": 102
+    },
+    {
+      "cohort_month": "2024-01",
+      "month_idx": 3,
+      "active_customers": 96
+    },
+    {
+      "cohort_month": "2024-01",
+      "month_idx": 4,
+      "active_customers": 104
+    },
+    {
+      "cohort_month": "2024-01",
+      "month_idx": 5,
+      "active_customers": 98
+    },
+    {
+      "cohort_month": "2024-01",
+      "month_idx": 6,
+      "active_customers": 99
+    },
+    {
+      "cohort_month": "2024-01",
+      "month_idx": 7,
+      "active_customers": 87
+    },
+    {
+      "cohort_month": "2024-01",
+      "month_idx": 8,
+      "active_customers": 95
+    },
+    {
+      "cohort_month": "2024-01",
+      "month_idx": 9,
+      "active_customers": 99
+    },
+    {
+      "cohort_month": "2024-01",
+      "month_idx": 10,
+      "active_customers": 111
+    },
+    {
+      "cohort_month": "2024-01",
+      "month_idx": 11,
+      "active_customers": 117
+    },
+    {
+      "cohort_month": "2024-01",
+      "month_idx": 12,
+      "active_customers": 102
+    },
+    {
+      "cohort_month": "2024-01",
+      "month_idx": 13,
+      "active_customers": 100
+    },
+    {
+      "cohort_month": "2024-01",
+      "month_idx": 14,
+      "active_customers": 98
+    },
+    {
+      "cohort_month": "2024-01",
+      "month_idx": 15,
+      "active_customers": 100
+    },
+    {
+      "cohort_month": "2024-01",
+      "month_idx": 16,
+      "active_customers": 99
+    },
+    {
+      "cohort_month": "2024-01",
+      "month_idx": 17,
+      "active_customers": 92
+    },
+    {
+      "cohort_month": "2024-01",
+      "month_idx": 18,
+      "active_customers": 93
+    },
+    {
+      "cohort_month": "2024-01",
+      "month_idx": 19,
+      "active_customers": 96
+    },
+    {
+      "cohort_month": "2024-01",
+      "month_idx": 20,
+      "active_customers": 91
+    },
+    {
+      "cohort_month": "2024-01",
+      "month_idx": 21,
+      "active_customers": 100
+    },
+    {
+      "cohort_month": "2024-01",
+      "month_idx": 22,
+      "active_customers": 99
+    },
+    {
+      "cohort_month": "2024-01",
+      "month_idx": 23,
+      "active_customers": 104
+    },
+    {
+      "cohort_month": "2024-02",
+      "month_idx": 0,
+      "active_customers": 475
+    },
+    {
+      "cohort_month": "2024-02",
+      "month_idx": 1,
+      "active_customers": 106
+    },
+    {
+      "cohort_month": "2024-02",
+      "month_idx": 2,
+      "active_customers": 100
+    },
+    {
+      "cohort_month": "2024-02",
+      "month_idx": 3,
+      "active_customers": 111
+    },
+    {
+      "cohort_month": "2024-02",
+      "month_idx": 4,
+      "active_customers": 106
+    },
+    {
+      "cohort_month": "2024-02",
+      "month_idx": 5,
+      "active_customers": 103
+    },
+    {
+      "cohort_month": "2024-02",
+      "month_idx": 6,
+      "active_customers": 90
+    },
+    {
+      "cohort_month": "2024-02",
+      "month_idx": 7,
+      "active_customers": 101
+    },
+    {
+      "cohort_month": "2024-02",
+      "month_idx": 8,
+      "active_customers": 99
+    },
+    {
+      "cohort_month": "2024-02",
+      "month_idx": 9,
+      "active_customers": 117
+    },
+    {
+      "cohort_month": "2024-02",
+      "month_idx": 10,
+      "active_customers": 108
+    },
+    {
+      "cohort_month": "2024-02",
+      "month_idx": 11,
+      "active_customers": 106
+    },
+    {
+      "cohort_month": "2024-02",
+      "month_idx": 12,
+      "active_customers": 88
+    },
+    {
+      "cohort_month": "2024-02",
+      "month_idx": 13,
+      "active_customers": 106
+    },
+    {
+      "cohort_month": "2024-02",
+      "month_idx": 14,
+      "active_customers": 108
+    },
+    {
+      "cohort_month": "2024-02",
+      "month_idx": 15,
+      "active_customers": 110
+    },
+    {
+      "cohort_month": "2024-02",
+      "month_idx": 16,
+      "active_customers": 103
+    },
+    {
+      "cohort_month": "2024-02",
+      "month_idx": 17,
+      "active_customers": 102
+    },
+    {
+      "cohort_month": "2024-02",
+      "month_idx": 18,
+      "active_customers": 86
+    },
+    {
+      "cohort_month": "2024-02",
+      "month_idx": 19,
+      "active_customers": 97
+    },
+    {
+      "cohort_month": "2024-02",
+      "month_idx": 20,
+      "active_customers": 99
+    },
+    {
+      "cohort_month": "2024-02",
+      "month_idx": 21,
+      "active_customers": 102
+    },
+    {
+      "cohort_month": "2024-02",
+      "month_idx": 22,
+      "active_customers": 108
+    },
+    {
+      "cohort_month": "2024-03",
+      "month_idx": 0,
+      "active_customers": 564
+    },
+    {
+      "cohort_month": "2024-03",
+      "month_idx": 1,
+      "active_customers": 116
+    },
+    {
+      "cohort_month": "2024-03",
+      "month_idx": 2,
+      "active_customers": 125
+    },
+    {
+      "cohort_month": "2024-03",
+      "month_idx": 3,
+      "active_customers": 124
+    },
+    {
+      "cohort_month": "2024-03",
+      "month_idx": 4,
+      "active_customers": 125
+    },
+    {
+      "cohort_month": "2024-03",
+      "month_idx": 5,
+      "active_customers": 121
+    },
+    {
+      "cohort_month": "2024-03",
+      "month_idx": 6,
+      "active_customers": 111
+    },
+    {
+      "cohort_month": "2024-03",
+      "month_idx": 7,
+      "active_customers": 131
+    },
+    {
+      "cohort_month": "2024-03",
+      "month_idx": 8,
+      "active_customers": 127
+    },
+    {
+      "cohort_month": "2024-03",
+      "month_idx": 9,
+      "active_customers": 141
+    },
+    {
+      "cohort_month": "2024-03",
+      "month_idx": 10,
+      "active_customers": 128
+    },
+    {
+      "cohort_month": "2024-03",
+      "month_idx": 11,
+      "active_customers": 124
+    },
+    {
+      "cohort_month": "2024-03",
+      "month_idx": 12,
+      "active_customers": 132
+    },
+    {
+      "cohort_month": "2024-03",
+      "month_idx": 13,
+      "active_customers": 122
+    },
+    {
+      "cohort_month": "2024-03",
+      "month_idx": 14,
+      "active_customers": 140
+    },
+    {
+      "cohort_month": "2024-03",
+      "month_idx": 15,
+      "active_customers": 125
+    },
+    {
+      "cohort_month": "2024-03",
+      "month_idx": 16,
+      "active_customers": 125
+    },
+    {
+      "cohort_month": "2024-03",
+      "month_idx": 17,
+      "active_customers": 119
+    },
+    {
+      "cohort_month": "2024-03",
+      "month_idx": 18,
+      "active_customers": 117
+    },
+    {
+      "cohort_month": "2024-03",
+      "month_idx": 19,
+      "active_customers": 116
+    },
+    {
+      "cohort_month": "2024-03",
+      "month_idx": 20,
+      "active_customers": 137
+    },
+    {
+      "cohort_month": "2024-03",
+      "month_idx": 21,
+      "active_customers": 127
+    },
+    {
+      "cohort_month": "2024-04",
+      "month_idx": 0,
+      "active_customers": 556
+    },
+    {
+      "cohort_month": "2024-04",
+      "month_idx": 1,
+      "active_customers": 124
+    },
+    {
+      "cohort_month": "2024-04",
+      "month_idx": 2,
+      "active_customers": 101
+    },
+    {
+      "cohort_month": "2024-04",
+      "month_idx": 3,
+      "active_customers": 105
+    },
+    {
+      "cohort_month": "2024-04",
+      "month_idx": 4,
+      "active_customers": 110
+    },
+    {
+      "cohort_month": "2024-04",
+      "month_idx": 5,
+      "active_customers": 114
+    },
+    {
+      "cohort_month": "2024-04",
+      "month_idx": 6,
+      "active_customers": 129
+    },
+    {
+      "cohort_month": "2024-04",
+      "month_idx": 7,
+      "active_customers": 116
+    },
+    {
+      "cohort_month": "2024-04",
+      "month_idx": 8,
+      "active_customers": 118
+    },
+    {
+      "cohort_month": "2024-04",
+      "month_idx": 9,
+      "active_customers": 115
+    },
+    {
+      "cohort_month": "2024-04",
+      "month_idx": 10,
+      "active_customers": 104
+    },
+    {
+      "cohort_month": "2024-04",
+      "month_idx": 11,
+      "active_customers": 127
+    },
+    {
+      "cohort_month": "2024-04",
+      "month_idx": 12,
+      "active_customers": 119
+    },
+    {
+      "cohort_month": "2024-04",
+      "month_idx": 13,
+      "active_customers": 120
+    },
+    {
+      "cohort_month": "2024-04",
+      "month_idx": 14,
+      "active_customers": 115
+    },
+    {
+      "cohort_month": "2024-04",
+      "month_idx": 15,
+      "active_customers": 117
+    },
+    {
+      "cohort_month": "2024-04",
+      "month_idx": 16,
+      "active_customers": 107
+    },
+    {
+      "cohort_month": "2024-04",
+      "month_idx": 17,
+      "active_customers": 106
+    },
+    {
+      "cohort_month": "2024-04",
+      "month_idx": 18,
+      "active_customers": 101
+    },
+    {
+      "cohort_month": "2024-04",
+      "month_idx": 19,
+      "active_customers": 124
+    },
+    {
+      "cohort_month": "2024-04",
+      "month_idx": 20,
+      "active_customers": 105
+    },
+    {
+      "cohort_month": "2024-05",
+      "month_idx": 0,
+      "active_customers": 621
+    },
+    {
+      "cohort_month": "2024-05",
+      "month_idx": 1,
+      "active_customers": 124
+    },
+    {
+      "cohort_month": "2024-05",
+      "month_idx": 2,
+      "active_customers": 126
+    },
+    {
+      "cohort_month": "2024-05",
+      "month_idx": 3,
+      "active_customers": 130
+    },
+    {
+      "cohort_month": "2024-05",
+      "month_idx": 4,
+      "active_customers": 113
+    },
+    {
+      "cohort_month": "2024-05",
+      "month_idx": 5,
+      "active_customers": 122
+    },
+    {
+      "cohort_month": "2024-05",
+      "month_idx": 6,
+      "active_customers": 140
+    },
+    {
+      "cohort_month": "2024-05",
+      "month_idx": 7,
+      "active_customers": 146
+    },
+    {
+      "cohort_month": "2024-05",
+      "month_idx": 8,
+      "active_customers": 132
+    },
+    {
+      "cohort_month": "2024-05",
+      "month_idx": 9,
+      "active_customers": 118
+    },
+    {
+      "cohort_month": "2024-05",
+      "month_idx": 10,
+      "active_customers": 121
+    },
+    {
+      "cohort_month": "2024-05",
+      "month_idx": 11,
+      "active_customers": 126
+    },
+    {
+      "cohort_month": "2024-05",
+      "month_idx": 12,
+      "active_customers": 132
+    },
+    {
+      "cohort_month": "2024-05",
+      "month_idx": 13,
+      "active_customers": 120
+    },
+    {
+      "cohort_month": "2024-05",
+      "month_idx": 14,
+      "active_customers": 135
+    },
+    {
+      "cohort_month": "2024-05",
+      "month_idx": 15,
+      "active_customers": 135
+    },
+    {
+      "cohort_month": "2024-05",
+      "month_idx": 16,
+      "active_customers": 120
+    },
+    {
+      "cohort_month": "2024-05",
+      "month_idx": 17,
+      "active_customers": 131
+    },
+    {
+      "cohort_month": "2024-05",
+      "month_idx": 18,
+      "active_customers": 125
+    },
+    {
+      "cohort_month": "2024-05",
+      "month_idx": 19,
+      "active_customers": 127
+    },
+    {
+      "cohort_month": "2024-06",
+      "month_idx": 0,
+      "active_customers": 624
+    },
+    {
+      "cohort_month": "2024-06",
+      "month_idx": 1,
+      "active_customers": 128
+    },
+    {
+      "cohort_month": "2024-06",
+      "month_idx": 2,
+      "active_customers": 117
+    },
+    {
+      "cohort_month": "2024-06",
+      "month_idx": 3,
+      "active_customers": 121
+    },
+    {
+      "cohort_month": "2024-06",
+      "month_idx": 4,
+      "active_customers": 113
+    },
+    {
+      "cohort_month": "2024-06",
+      "month_idx": 5,
+      "active_customers": 128
+    },
+    {
+      "cohort_month": "2024-06",
+      "month_idx": 6,
+      "active_customers": 137
+    },
+    {
+      "cohort_month": "2024-06",
+      "month_idx": 7,
+      "active_customers": 114
+    },
+    {
+      "cohort_month": "2024-06",
+      "month_idx": 8,
+      "active_customers": 109
+    },
+    {
+      "cohort_month": "2024-06",
+      "month_idx": 9,
+      "active_customers": 117
+    },
+    {
+      "cohort_month": "2024-06",
+      "month_idx": 10,
+      "active_customers": 131
+    },
+    {
+      "cohort_month": "2024-06",
+      "month_idx": 11,
+      "active_customers": 138
+    },
+    {
+      "cohort_month": "2024-06",
+      "month_idx": 12,
+      "active_customers": 135
+    },
+    {
+      "cohort_month": "2024-06",
+      "month_idx": 13,
+      "active_customers": 120
+    },
+    {
+      "cohort_month": "2024-06",
+      "month_idx": 14,
+      "active_customers": 115
+    },
+    {
+      "cohort_month": "2024-06",
+      "month_idx": 15,
+      "active_customers": 127
+    },
+    {
+      "cohort_month": "2024-06",
+      "month_idx": 16,
+      "active_customers": 111
+    },
+    {
+      "cohort_month": "2024-06",
+      "month_idx": 17,
+      "active_customers": 121
+    },
+    {
+      "cohort_month": "2024-06",
+      "month_idx": 18,
+      "active_customers": 124
+    },
+    {
+      "cohort_month": "2024-07",
+      "month_idx": 0,
+      "active_customers": 618
+    },
+    {
+      "cohort_month": "2024-07",
+      "month_idx": 1,
+      "active_customers": 144
+    },
+    {
+      "cohort_month": "2024-07",
+      "month_idx": 2,
+      "active_customers": 134
+    },
+    {
+      "cohort_month": "2024-07",
+      "month_idx": 3,
+      "active_customers": 127
+    },
+    {
+      "cohort_month": "2024-07",
+      "month_idx": 4,
+      "active_customers": 140
+    },
+    {
+      "cohort_month": "2024-07",
+      "month_idx": 5,
+      "active_customers": 152
+    },
+    {
+      "cohort_month": "2024-07",
+      "month_idx": 6,
+      "active_customers": 140
+    },
+    {
+      "cohort_month": "2024-07",
+      "month_idx": 7,
+      "active_customers": 130
+    },
+    {
+      "cohort_month": "2024-07",
+      "month_idx": 8,
+      "active_customers": 125
+    },
+    {
+      "cohort_month": "2024-07",
+      "month_idx": 9,
+      "active_customers": 139
+    },
+    {
+      "cohort_month": "2024-07",
+      "month_idx": 10,
+      "active_customers": 138
+    },
+    {
+      "cohort_month": "2024-07",
+      "month_idx": 11,
+      "active_customers": 147
+    },
+    {
+      "cohort_month": "2024-07",
+      "month_idx": 12,
+      "active_customers": 141
+    },
+    {
+      "cohort_month": "2024-07",
+      "month_idx": 13,
+      "active_customers": 133
+    },
+    {
+      "cohort_month": "2024-07",
+      "month_idx": 14,
+      "active_customers": 133
+    },
+    {
+      "cohort_month": "2024-07",
+      "month_idx": 15,
+      "active_customers": 122
+    },
+    {
+      "cohort_month": "2024-07",
+      "month_idx": 16,
+      "active_customers": 139
+    },
+    {
+      "cohort_month": "2024-07",
+      "month_idx": 17,
+      "active_customers": 137
+    },
+    {
+      "cohort_month": "2024-08",
+      "month_idx": 0,
+      "active_customers": 639
+    },
+    {
+      "cohort_month": "2024-08",
+      "month_idx": 1,
+      "active_customers": 116
+    },
+    {
+      "cohort_month": "2024-08",
+      "month_idx": 2,
+      "active_customers": 117
+    },
+    {
+      "cohort_month": "2024-08",
+      "month_idx": 3,
+      "active_customers": 135
+    },
+    {
+      "cohort_month": "2024-08",
+      "month_idx": 4,
+      "active_customers": 151
+    },
+    {
+      "cohort_month": "2024-08",
+      "month_idx": 5,
+      "active_customers": 132
+    },
+    {
+      "cohort_month": "2024-08",
+      "month_idx": 6,
+      "active_customers": 112
+    },
+    {
+      "cohort_month": "2024-08",
+      "month_idx": 7,
+      "active_customers": 132
+    },
+    {
+      "cohort_month": "2024-08",
+      "month_idx": 8,
+      "active_customers": 121
+    },
+    {
+      "cohort_month": "2024-08",
+      "month_idx": 9,
+      "active_customers": 136
+    },
+    {
+      "cohort_month": "2024-08",
+      "month_idx": 10,
+      "active_customers": 131
+    },
+    {
+      "cohort_month": "2024-08",
+      "month_idx": 11,
+      "active_customers": 130
+    },
+    {
+      "cohort_month": "2024-08",
+      "month_idx": 12,
+      "active_customers": 136
+    },
+    {
+      "cohort_month": "2024-08",
+      "month_idx": 13,
+      "active_customers": 112
+    },
+    {
+      "cohort_month": "2024-08",
+      "month_idx": 14,
+      "active_customers": 124
+    },
+    {
+      "cohort_month": "2024-08",
+      "month_idx": 15,
+      "active_customers": 142
+    },
+    {
+      "cohort_month": "2024-08",
+      "month_idx": 16,
+      "active_customers": 132
+    },
+    {
+      "cohort_month": "2024-09",
+      "month_idx": 0,
+      "active_customers": 700
+    },
+    {
+      "cohort_month": "2024-09",
+      "month_idx": 1,
+      "active_customers": 156
+    },
+    {
+      "cohort_month": "2024-09",
+      "month_idx": 2,
+      "active_customers": 155
+    },
+    {
+      "cohort_month": "2024-09",
+      "month_idx": 3,
+      "active_customers": 170
+    },
+    {
+      "cohort_month": "2024-09",
+      "month_idx": 4,
+      "active_customers": 129
+    },
+    {
+      "cohort_month": "2024-09",
+      "month_idx": 5,
+      "active_customers": 129
+    },
+    {
+      "cohort_month": "2024-09",
+      "month_idx": 6,
+      "active_customers": 138
+    },
+    {
+      "cohort_month": "2024-09",
+      "month_idx": 7,
+      "active_customers": 136
+    },
+    {
+      "cohort_month": "2024-09",
+      "month_idx": 8,
+      "active_customers": 145
+    },
+    {
+      "cohort_month": "2024-09",
+      "month_idx": 9,
+      "active_customers": 142
+    },
+    {
+      "cohort_month": "2024-09",
+      "month_idx": 10,
+      "active_customers": 143
+    },
+    {
+      "cohort_month": "2024-09",
+      "month_idx": 11,
+      "active_customers": 122
+    },
+    {
+      "cohort_month": "2024-09",
+      "month_idx": 12,
+      "active_customers": 142
+    },
+    {
+      "cohort_month": "2024-09",
+      "month_idx": 13,
+      "active_customers": 155
+    },
+    {
+      "cohort_month": "2024-09",
+      "month_idx": 14,
+      "active_customers": 158
+    },
+    {
+      "cohort_month": "2024-09",
+      "month_idx": 15,
+      "active_customers": 148
+    },
+    {
+      "cohort_month": "2024-10",
+      "month_idx": 0,
+      "active_customers": 797
+    },
+    {
+      "cohort_month": "2024-10",
+      "month_idx": 1,
+      "active_customers": 156
+    },
+    {
+      "cohort_month": "2024-10",
+      "month_idx": 2,
+      "active_customers": 143
+    },
+    {
+      "cohort_month": "2024-10",
+      "month_idx": 3,
+      "active_customers": 145
+    },
+    {
+      "cohort_month": "2024-10",
+      "month_idx": 4,
+      "active_customers": 122
+    },
+    {
+      "cohort_month": "2024-10",
+      "month_idx": 5,
+      "active_customers": 141
+    },
+    {
+      "cohort_month": "2024-10",
+      "month_idx": 6,
+      "active_customers": 128
+    },
+    {
+      "cohort_month": "2024-10",
+      "month_idx": 7,
+      "active_customers": 137
+    },
+    {
+      "cohort_month": "2024-10",
+      "month_idx": 8,
+      "active_customers": 117
+    },
+    {
+      "cohort_month": "2024-10",
+      "month_idx": 9,
+      "active_customers": 122
+    },
+    {
+      "cohort_month": "2024-10",
+      "month_idx": 10,
+      "active_customers": 137
+    },
+    {
+      "cohort_month": "2024-10",
+      "month_idx": 11,
+      "active_customers": 138
+    },
+    {
+      "cohort_month": "2024-10",
+      "month_idx": 12,
+      "active_customers": 132
+    },
+    {
+      "cohort_month": "2024-10",
+      "month_idx": 13,
+      "active_customers": 149
+    },
+    {
+      "cohort_month": "2024-10",
+      "month_idx": 14,
+      "active_customers": 139
+    },
+    {
+      "cohort_month": "2024-11",
+      "month_idx": 0,
+      "active_customers": 988
+    },
+    {
+      "cohort_month": "2024-11",
+      "month_idx": 1,
+      "active_customers": 209
+    },
+    {
+      "cohort_month": "2024-11",
+      "month_idx": 2,
+      "active_customers": 175
+    },
+    {
+      "cohort_month": "2024-11",
+      "month_idx": 3,
+      "active_customers": 175
+    },
+    {
+      "cohort_month": "2024-11",
+      "month_idx": 4,
+      "active_customers": 191
+    },
+    {
+      "cohort_month": "2024-11",
+      "month_idx": 5,
+      "active_customers": 171
+    },
+    {
+      "cohort_month": "2024-11",
+      "month_idx": 6,
+      "active_customers": 199
+    },
+    {
+      "cohort_month": "2024-11",
+      "month_idx": 7,
+      "active_customers": 174
+    },
+    {
+      "cohort_month": "2024-11",
+      "month_idx": 8,
+      "active_customers": 190
+    },
+    {
+      "cohort_month": "2024-11",
+      "month_idx": 9,
+      "active_customers": 173
+    },
+    {
+      "cohort_month": "2024-11",
+      "month_idx": 10,
+      "active_customers": 179
+    },
+    {
+      "cohort_month": "2024-11",
+      "month_idx": 11,
+      "active_customers": 177
+    },
+    {
+      "cohort_month": "2024-11",
+      "month_idx": 12,
+      "active_customers": 188
+    },
+    {
+      "cohort_month": "2024-11",
+      "month_idx": 13,
+      "active_customers": 182
+    },
+    {
+      "cohort_month": "2024-12",
+      "month_idx": 0,
+      "active_customers": 912
+    },
+    {
+      "cohort_month": "2024-12",
+      "month_idx": 1,
+      "active_customers": 179
+    },
+    {
+      "cohort_month": "2024-12",
+      "month_idx": 2,
+      "active_customers": 144
+    },
+    {
+      "cohort_month": "2024-12",
+      "month_idx": 3,
+      "active_customers": 133
+    },
+    {
+      "cohort_month": "2024-12",
+      "month_idx": 4,
+      "active_customers": 155
+    },
+    {
+      "cohort_month": "2024-12",
+      "month_idx": 5,
+      "active_customers": 152
+    },
+    {
+      "cohort_month": "2024-12",
+      "month_idx": 6,
+      "active_customers": 156
+    },
+    {
+      "cohort_month": "2024-12",
+      "month_idx": 7,
+      "active_customers": 157
+    },
+    {
+      "cohort_month": "2024-12",
+      "month_idx": 8,
+      "active_customers": 156
+    },
+    {
+      "cohort_month": "2024-12",
+      "month_idx": 9,
+      "active_customers": 141
+    },
+    {
+      "cohort_month": "2024-12",
+      "month_idx": 10,
+      "active_customers": 164
+    },
+    {
+      "cohort_month": "2024-12",
+      "month_idx": 11,
+      "active_customers": 178
+    },
+    {
+      "cohort_month": "2024-12",
+      "month_idx": 12,
+      "active_customers": 185
+    },
+    {
+      "cohort_month": "2025-01",
+      "month_idx": 0,
+      "active_customers": 714
+    },
+    {
+      "cohort_month": "2025-01",
+      "month_idx": 1,
+      "active_customers": 129
+    },
+    {
+      "cohort_month": "2025-01",
+      "month_idx": 2,
+      "active_customers": 108
+    },
+    {
+      "cohort_month": "2025-01",
+      "month_idx": 3,
+      "active_customers": 111
+    },
+    {
+      "cohort_month": "2025-01",
+      "month_idx": 4,
+      "active_customers": 126
+    },
+    {
+      "cohort_month": "2025-01",
+      "month_idx": 5,
+      "active_customers": 107
+    },
+    {
+      "cohort_month": "2025-01",
+      "month_idx": 6,
+      "active_customers": 112
+    },
+    {
+      "cohort_month": "2025-01",
+      "month_idx": 7,
+      "active_customers": 113
+    },
+    {
+      "cohort_month": "2025-01",
+      "month_idx": 8,
+      "active_customers": 120
+    },
+    {
+      "cohort_month": "2025-01",
+      "month_idx": 9,
+      "active_customers": 114
+    },
+    {
+      "cohort_month": "2025-01",
+      "month_idx": 10,
+      "active_customers": 141
+    },
+    {
+      "cohort_month": "2025-01",
+      "month_idx": 11,
+      "active_customers": 129
+    },
+    {
+      "cohort_month": "2025-02",
+      "month_idx": 0,
+      "active_customers": 672
+    },
+    {
+      "cohort_month": "2025-02",
+      "month_idx": 1,
+      "active_customers": 108
+    },
+    {
+      "cohort_month": "2025-02",
+      "month_idx": 2,
+      "active_customers": 110
+    },
+    {
+      "cohort_month": "2025-02",
+      "month_idx": 3,
+      "active_customers": 122
+    },
+    {
+      "cohort_month": "2025-02",
+      "month_idx": 4,
+      "active_customers": 112
+    },
+    {
+      "cohort_month": "2025-02",
+      "month_idx": 5,
+      "active_customers": 108
+    },
+    {
+      "cohort_month": "2025-02",
+      "month_idx": 6,
+      "active_customers": 113
+    },
+    {
+      "cohort_month": "2025-02",
+      "month_idx": 7,
+      "active_customers": 110
+    },
+    {
+      "cohort_month": "2025-02",
+      "month_idx": 8,
+      "active_customers": 109
+    },
+    {
+      "cohort_month": "2025-02",
+      "month_idx": 9,
+      "active_customers": 112
+    },
+    {
+      "cohort_month": "2025-02",
+      "month_idx": 10,
+      "active_customers": 127
+    },
+    {
+      "cohort_month": "2025-03",
+      "month_idx": 0,
+      "active_customers": 860
+    },
+    {
+      "cohort_month": "2025-03",
+      "month_idx": 1,
+      "active_customers": 151
+    },
+    {
+      "cohort_month": "2025-03",
+      "month_idx": 2,
+      "active_customers": 139
+    },
+    {
+      "cohort_month": "2025-03",
+      "month_idx": 3,
+      "active_customers": 132
+    },
+    {
+      "cohort_month": "2025-03",
+      "month_idx": 4,
+      "active_customers": 141
+    },
+    {
+      "cohort_month": "2025-03",
+      "month_idx": 5,
+      "active_customers": 123
+    },
+    {
+      "cohort_month": "2025-03",
+      "month_idx": 6,
+      "active_customers": 115
+    },
+    {
+      "cohort_month": "2025-03",
+      "month_idx": 7,
+      "active_customers": 127
+    },
+    {
+      "cohort_month": "2025-03",
+      "month_idx": 8,
+      "active_customers": 142
+    },
+    {
+      "cohort_month": "2025-03",
+      "month_idx": 9,
+      "active_customers": 128
+    },
+    {
+      "cohort_month": "2025-04",
+      "month_idx": 0,
+      "active_customers": 832
+    },
+    {
+      "cohort_month": "2025-04",
+      "month_idx": 1,
+      "active_customers": 145
+    },
+    {
+      "cohort_month": "2025-04",
+      "month_idx": 2,
+      "active_customers": 135
+    },
+    {
+      "cohort_month": "2025-04",
+      "month_idx": 3,
+      "active_customers": 108
+    },
+    {
+      "cohort_month": "2025-04",
+      "month_idx": 4,
+      "active_customers": 114
+    },
+    {
+      "cohort_month": "2025-04",
+      "month_idx": 5,
+      "active_customers": 113
+    },
+    {
+      "cohort_month": "2025-04",
+      "month_idx": 6,
+      "active_customers": 122
+    },
+    {
+      "cohort_month": "2025-04",
+      "month_idx": 7,
+      "active_customers": 136
+    },
+    {
+      "cohort_month": "2025-04",
+      "month_idx": 8,
+      "active_customers": 126
+    },
+    {
+      "cohort_month": "2025-05",
+      "month_idx": 0,
+      "active_customers": 954
+    },
+    {
+      "cohort_month": "2025-05",
+      "month_idx": 1,
+      "active_customers": 166
+    },
+    {
+      "cohort_month": "2025-05",
+      "month_idx": 2,
+      "active_customers": 173
+    },
+    {
+      "cohort_month": "2025-05",
+      "month_idx": 3,
+      "active_customers": 168
+    },
+    {
+      "cohort_month": "2025-05",
+      "month_idx": 4,
+      "active_customers": 161
+    },
+    {
+      "cohort_month": "2025-05",
+      "month_idx": 5,
+      "active_customers": 148
+    },
+    {
+      "cohort_month": "2025-05",
+      "month_idx": 6,
+      "active_customers": 155
+    },
+    {
+      "cohort_month": "2025-05",
+      "month_idx": 7,
+      "active_customers": 167
+    },
+    {
+      "cohort_month": "2025-06",
+      "month_idx": 0,
+      "active_customers": 876
+    },
+    {
+      "cohort_month": "2025-06",
+      "month_idx": 1,
+      "active_customers": 161
+    },
+    {
+      "cohort_month": "2025-06",
+      "month_idx": 2,
+      "active_customers": 149
+    },
+    {
+      "cohort_month": "2025-06",
+      "month_idx": 3,
+      "active_customers": 123
+    },
+    {
+      "cohort_month": "2025-06",
+      "month_idx": 4,
+      "active_customers": 141
+    },
+    {
+      "cohort_month": "2025-06",
+      "month_idx": 5,
+      "active_customers": 151
+    },
+    {
+      "cohort_month": "2025-06",
+      "month_idx": 6,
+      "active_customers": 132
+    },
+    {
+      "cohort_month": "2025-07",
+      "month_idx": 0,
+      "active_customers": 884
+    },
+    {
+      "cohort_month": "2025-07",
+      "month_idx": 1,
+      "active_customers": 134
+    },
+    {
+      "cohort_month": "2025-07",
+      "month_idx": 2,
+      "active_customers": 115
+    },
+    {
+      "cohort_month": "2025-07",
+      "month_idx": 3,
+      "active_customers": 126
+    },
+    {
+      "cohort_month": "2025-07",
+      "month_idx": 4,
+      "active_customers": 130
+    },
+    {
+      "cohort_month": "2025-07",
+      "month_idx": 5,
+      "active_customers": 118
+    },
+    {
+      "cohort_month": "2025-08",
+      "month_idx": 0,
+      "active_customers": 931
+    },
+    {
+      "cohort_month": "2025-08",
+      "month_idx": 1,
+      "active_customers": 163
+    },
+    {
+      "cohort_month": "2025-08",
+      "month_idx": 2,
+      "active_customers": 157
+    },
+    {
+      "cohort_month": "2025-08",
+      "month_idx": 3,
+      "active_customers": 157
+    },
+    {
+      "cohort_month": "2025-08",
+      "month_idx": 4,
+      "active_customers": 143
+    },
+    {
+      "cohort_month": "2025-09",
+      "month_idx": 0,
+      "active_customers": 967
+    },
+    {
+      "cohort_month": "2025-09",
+      "month_idx": 1,
+      "active_customers": 150
+    },
+    {
+      "cohort_month": "2025-09",
+      "month_idx": 2,
+      "active_customers": 156
+    },
+    {
+      "cohort_month": "2025-09",
+      "month_idx": 3,
+      "active_customers": 143
+    },
+    {
+      "cohort_month": "2025-10",
+      "month_idx": 0,
+      "active_customers": 1071
+    },
+    {
+      "cohort_month": "2025-10",
+      "month_idx": 1,
+      "active_customers": 166
+    },
+    {
+      "cohort_month": "2025-10",
+      "month_idx": 2,
+      "active_customers": 153
+    },
+    {
+      "cohort_month": "2025-11",
+      "month_idx": 0,
+      "active_customers": 1355
+    },
+    {
+      "cohort_month": "2025-11",
+      "month_idx": 1,
+      "active_customers": 185
+    },
+    {
+      "cohort_month": "2025-12",
+      "month_idx": 0,
+      "active_customers": 1308
+    }
+  ]
+}
