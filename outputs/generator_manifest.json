@@ -1,0 +1,42 @@
+{
+  "seed": 42,
+  "customers_param": 20000,
+  "products_param": 300,
+  "clean_counts": {
+    "products": 300,
+    "customers": 20000,
+    "orders": 79084,
+    "order_items": 144566,
+    "marketing_touches": 129631,
+    "support_tickets": 3634,
+    "returns": 5928
+  },
+  "dirty_counts": {
+    "products_null_category": 2,
+    "products_cost_gt_price": 3,
+    "products_duplicate_rows": 2,
+    "customers_null_country": 100,
+    "customers_null_signup": 41,
+    "customers_duplicate_rows": 80,
+    "customers_duplicate_emails": 160,
+    "orders_future_dates": 35,
+    "orders_orphan_customer": 79,
+    "orders_null_country": 474,
+    "orders_negative_shipping": 237,
+    "orders_null_discount": 395,
+    "orders_duplicate_rows": 474,
+    "items_negative_qty": 867,
+    "items_bad_price": 578,
+    "items_orphan_product": 578,
+    "touches_null_channel": 648,
+    "touches_duplicate_rows": 388,
+    "tickets_resolved_before_opened": 21,
+    "tickets_null_topic": 14,
+    "returns_negative_refund": 29,
+    "returns_null_reason": 29
+  },
+  "horizon": [
+    "2024-01-01",
+    "2025-12-31"
+  ]
+}

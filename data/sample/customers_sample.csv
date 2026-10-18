@@ -1,0 +1,201 @@
+customer_id,signup_date,acquisition_channel,country,city,email,age_band,marketing_consent,preferred_device
+C1000,2024-09-17,organic_search,Peru,Cusco,user1000@mail.com,45-54,True,mobile
+C1001,2024-10-23,email,Mexico,CDMX,user1001@mail.com,45-54,True,mobile
+C1002,2024-09-25,organic_search,Brazil,Rio de Janeiro,user1002@inbox.io,35-44,False,desktop
+C1003,2024-05-14,paid_search,Mexico,Monterrey,user1003@mail.com,35-44,True,desktop
+C1004,2025-12-28,paid_search,Brazil,Porto Alegre,user1004@mail.com,18-24,True,mobile
+C1005,2024-12-05,paid_social,Argentina,La Plata,user1005@correo.net,35-44,True,tablet
+C1006,2024-08-25,paid_social,Mexico,Merida,user1006@correo.net,25-34,False,mobile
+C1007,2025-10-24,paid_search,Brazil,Curitiba,user1007@mail.com,18-24,True,mobile
+C1008,2024-12-03,paid_social,Brazil,Sao Paulo,user1008@mail.com,25-34,True,desktop
+C1009,2024-02-05,organic_search,Mexico,CDMX,user1009@correo.net,25-34,False,desktop
+C1010,2024-06-02,organic_search,Brazil,Porto Alegre,user1010@mail.com,35-44,True,mobile
+C1011,2025-06-08,paid_social,Mexico,Guadalajara,user1011@correo.net,45-54,True,mobile
+C1012,2025-09-28,organic_search,Colombia,Cali,user1012@mail.com,55+,False,mobile
+C1013,2024-08-04,influencer,Brazil,Belo Horizonte,user1013@correo.net,45-54,True,desktop
+C1014,2025-11-01,paid_social,Brazil,Porto Alegre,user1014@mail.com,25-34,False,mobile
+C1015,2025-10-13,paid_social,Brazil,Curitiba,user1015@correo.net,45-54,False,mobile
+C1016,2025-10-10,paid_social,Chile,Temuco,user1016@correo.net,35-44,True,mobile
+C1017,2024-08-18,paid_search,Mexico,CDMX,user1017@correo.net,35-44,True,desktop
+C1018,2024-03-17,organic_search,Chile,La Serena,user1018@inbox.io,45-54,False,mobile
+C1019,2025-11-24,paid_social,Peru,Trujillo,user1019@correo.net,25-34,True,mobile
+C1020,2024-10-12,paid_social,Brazil,Rio de Janeiro,user1020@mail.com,35-44,False,mobile
+C1021,2025-05-13,organic_search,Chile,Concepcion,user1021@mail.com,35-44,False,mobile
+C1022,2025-09-01,paid_social,Mexico,Merida,user1022@inbox.io,35-44,False,mobile
+C1023,2024-05-28,paid_social,Chile,Temuco,user1023@correo.net,25-34,True,mobile
+C1024,2025-09-06,paid_social,Brazil,Curitiba,user1024@mail.com,25-34,True,mobile
+C1025,2025-12-17,paid_social,Mexico,CDMX,user1025@inbox.io,35-44,False,desktop
+C1026,2025-08-25,paid_social,Colombia,Cali,user1026@mail.com,25-34,False,mobile
+C1027,2025-01-17,organic_search,Peru,Lima,user1027@correo.net,35-44,True,mobile
+C1028,2025-11-18,paid_social,Chile,Temuco,user1028@inbox.io,18-24,True,mobile
+C1029,2025-03-05,paid_social,Mexico,CDMX,user8054@mail.com,25-34,False,tablet
+C1030,2025-08-20,organic_search,Colombia,Medellin,user1030@mail.com,18-24,True,mobile
+C1031,2025-10-06,paid_social,Chile,La Serena,user1031@correo.net,25-34,True,mobile
+C1032,2025-08-20,organic_search,Mexico,Merida,user1032@inbox.io,35-44,True,desktop
+C1033,2024-10-17,paid_social,Chile,Valparaiso,user1033@inbox.io,35-44,True,mobile
+C1034,2024-05-14,paid_social,Argentina,Cordoba,user1034@mail.com,25-34,True,mobile
+C1035,2024-09-21,organic_search,Brazil,Curitiba,user1035@correo.net,35-44,True,mobile
+C1036,2025-03-21,paid_social,Colombia,Cali,user1036@mail.com,18-24,False,mobile
+C1037,2025-03-06,paid_search,Mexico,Monterrey,user1037@correo.net,35-44,False,mobile
+C1038,2025-05-11,paid_search,Argentina,Rosario,user1038@inbox.io,35-44,True,tablet
+C1039,2024-12-14,paid_search,Chile,Valparaiso,user1039@correo.net,35-44,True,tablet
+C1040,2025-09-05,organic_search,Brazil,Sao Paulo,user1040@correo.net,25-34,True,desktop
+C1041,2025-11-10,paid_social,Argentina,La Plata,user1041@mail.com,35-44,True,mobile
+C1042,2024-09-02,paid_social,Brazil,Curitiba,user1042@mail.com,35-44,False,mobile
+C1043,2025-08-13,paid_social,Mexico,CDMX,user1043@inbox.io,18-24,True,mobile
+C1044,2025-07-06,paid_search,Colombia,Bucaramanga,user1044@correo.net,25-34,False,desktop
+C1045,2025-03-07,paid_search,Chile,La Serena,user1045@correo.net,18-24,False,desktop
+C1046,2024-07-23,paid_social,Mexico,CDMX,user1046@correo.net,35-44,False,mobile
+C1047,2025-09-04,paid_search,Chile,La Serena,user1047@correo.net,35-44,True,mobile
+C1048,2025-12-04,organic_search,Brazil,Belo Horizonte,user1048@mail.com,45-54,True,desktop
+C1049,2025-08-09,paid_social,Mexico,Monterrey,user1049@inbox.io,55+,True,mobile
+C1050,2025-11-01,organic_search,Brazil,Rio de Janeiro,user1050@inbox.io,35-44,True,tablet
+C1051,2025-12-25,paid_social,Mexico,Puebla,user1051@correo.net,25-34,True,mobile
+C1052,2024-11-28,organic_search,Peru,Arequipa,user1052@mail.com,55+,False,desktop
+C1053,2025-06-23,paid_social,Argentina,Mendoza,user1053@mail.com,18-24,True,mobile
+C1054,2025-02-23,paid_search,Brazil,Sao Paulo,user1054@correo.net,25-34,True,mobile
+C1055,2025-12-03,paid_search,Colombia,Medellin,user1055@correo.net,45-54,True,desktop
+C1056,2024-04-16,email,argentina,La Plata,user1056@correo.net,18-24,True,mobile
+C1057,2024-12-03,paid_social,Argentina,Buenos Aires,user1057@correo.net,55+,True,mobile
+C1058,2025-11-09,paid_search,Mexico,Monterrey,user1058@mail.com,35-44,True,desktop
+C1059,2024-10-14,organic_search,brasil,Sao Paulo,user1059@correo.net,35-44,True,mobile
+C1060,2025-09-20,paid_social,Peru,Piura,user1060@mail.com,25-34,True,desktop
+C1061,2024-12-08,organic_search,Colombia,Bucaramanga,user1061@mail.com,45-54,True,desktop
+C1062,2025-12-08,paid_social,Brazil,Sao Paulo,user1062@correo.net,35-44,True,tablet
+C1063,2025-11-24,paid_social,Argentina,Cordoba,user1063@mail.com,25-34,True,mobile
+C1064,2024-10-07,organic_search,Chile,Santiago,user1064@mail.com,35-44,False,desktop
+C1065,2025-09-14,paid_social,Mexico,Monterrey,user1065@correo.net,25-34,True,tablet
+C1066,2024-11-09,organic_search,Brazil,Rio de Janeiro,user1066@inbox.io,35-44,False,desktop
+C1067,2025-05-24,paid_social,,Guadalajara,user1067@inbox.io,55+,False,tablet
+C1068,2025-06-15,paid_social,Colombia,Cali,user1068@mail.com,25-34,True,mobile
+C1069,2025-10-04,organic_search,Brazil,Belo Horizonte,user1069@correo.net,35-44,False,mobile
+C1070,2024-02-05,paid_search,Colombia,Bogota,user1070@correo.net,35-44,True,desktop
+C1071,2024-08-28,paid_search,Colombia,Bucaramanga,user1071@correo.net,35-44,False,mobile
+C1072,2025-08-27,paid_social,Colombia,Bogota,user1072@mail.com,55+,True,desktop
+C1073,2025-04-22,paid_search,brasil,Curitiba,user1073@correo.net,25-34,True,mobile
+C1074,2025-03-03,paid_social,Brazil,Curitiba,user1074@mail.com,25-34,True,mobile
+C1075,2024-03-21,paid_social,Argentina,Buenos Aires,user1075@mail.com,55+,True,mobile
+C1076,2024-11-19,paid_social,Brazil,Curitiba,user1076@inbox.io,35-44,False,mobile
+C1077,2025-11-27,paid_search,Peru,Piura,user1077@inbox.io,18-24,False,mobile
+C1078,2024-02-14,paid_social,Chile,Concepcion,user1078@mail.com,35-44,False,mobile
+C1079,2024-12-14,organic_search,Colombia,Medellin,user1079@mail.com,25-34,True,mobile
+C1080,2025-12-18,referral,Peru,Trujillo,user1080@mail.com,35-44,True,desktop
+C1081,2024-03-05,paid_search,Chile,Valparaiso,user1081@inbox.io,45-54,True,tablet
+C1082,2025-08-21,organic_search,Mexico,Puebla,user1082@correo.net,18-24,True,mobile
+C1083,2024-09-14,organic_search,Brazil,Sao Paulo,user1083@correo.net,35-44,False,tablet
+C1084,2025-11-06,organic_search,Mexico,CDMX,user1084@mail.com,35-44,True,desktop
+C1085,2025-08-23,referral,Mexico,CDMX,user1085@correo.net,45-54,True,mobile
+C1086,2025-11-08,paid_search,Chile,La Serena,user1086@mail.com,25-34,True,mobile
+C1087,2024-08-25,referral,Colombia,Barranquilla,user7736@correo.net,35-44,True,mobile
+C1088,2025-04-08,paid_social,Mexico,CDMX,user1088@mail.com,55+,False,desktop
+C1089,2025-09-14,referral,Chile,Concepcion,user1089@mail.com,35-44,False,desktop
+C1090,2024-09-13,paid_social,Chile,Concepcion,user1090@mail.com,25-34,True,mobile
+C1091,2024-08-21,paid_social,Mexico,Merida,user1091@mail.com,18-24,True,mobile
+C1092,2024-02-06,organic_search,Mexico,Monterrey,user1092@mail.com,35-44,True,mobile
+C1093,2025-12-07,organic_search,Mexico,Puebla,user1093@mail.com,35-44,False,mobile
+C1094,2025-07-06,paid_social,Chile,La Serena,user1094@inbox.io,18-24,True,mobile
+C1095,2025-06-07,paid_social,Mexico,CDMX,user1095@inbox.io,25-34,True,mobile
+C1096,2025-08-13,paid_social,Mexico,CDMX,user1096@inbox.io,18-24,True,desktop
+C1097,2025-04-17,paid_search,Mexico,Monterrey,user1097@correo.net,25-34,False,desktop
+C1098,2025-02-25,paid_social, COLOMBIA ,Bucaramanga,user1098@mail.com,35-44,True,mobile
+C1099,2025-01-12,referral, MEXICO ,Guadalajara,user1099@mail.com,35-44,False,mobile
+C1100,2025-06-12,paid_social,Brazil,Porto Alegre,user1100@inbox.io,25-34,False,mobile
+C1101,2024-07-05,paid_social,Mexico,Guadalajara,user1101@inbox.io,35-44,True,tablet
+C1102,2025-11-03,paid_social,Mexico,Merida,user1102@mail.com,45-54,True,mobile
+C1103,2025-10-22,paid_social,Brazil,Rio de Janeiro,user1103@mail.com,18-24,False,mobile
+C1104,2024-11-18,organic_search,Mexico,Guadalajara,user1104@mail.com,25-34,True,tablet
+C1105,2025-05-15,paid_search,Brazil,Belo Horizonte,user1105@mail.com,18-24,True,mobile
+C1106,2024-06-13,email,Brazil,Porto Alegre,user1106@correo.net,35-44,True,desktop
+C1107,2025-12-15,paid_search,Brazil,Curitiba,user1107@inbox.io,25-34,True,tablet
+C1108,2025-11-24,paid_social,Chile,Concepcion,user1108@mail.com,55+,True,desktop
+C1109,2025-11-06,paid_social,Argentina,Rosario,user1109@mail.com,45-54,False,desktop
+C1110,2024-11-14,paid_search,Brazil,Belo Horizonte,user1110@correo.net,18-24,True,mobile
+C1111,2024-06-07,organic_search,Brazil,Porto Alegre,user1111@correo.net,18-24,True,mobile
+C1112,2024-08-03,paid_social,Peru,Lima,user1112@inbox.io,18-24,False,desktop
+C1113,2024-04-20,paid_social,Mexico,Guadalajara,user1113@mail.com,18-24,True,mobile
+C1114,2024-05-20,paid_social,Mexico,Monterrey,user1114@correo.net,18-24,False,desktop
+C1115,2024-03-24,paid_social,Colombia,Barranquilla,user1115@correo.net,35-44,False,desktop
+C1116,2025-12-01,paid_social,Brazil,Porto Alegre,user19047@inbox.io,35-44,True,mobile
+C1117,2024-03-05,paid_social,Peru,Arequipa,user1117@inbox.io,35-44,False,desktop
+C1118,2024-05-17,organic_search,Brazil,Sao Paulo,user1118@mail.com,18-24,False,desktop
+C1119,,paid_search,Colombia,Barranquilla,user1119@correo.net,55+,True,mobile
+C1120,2025-05-27,paid_social,Mexico,Puebla,user1120@mail.com,25-34,True,desktop
+C1121,2025-09-23,organic_search,Peru,Piura,user1121@correo.net,55+,False,desktop
+C1122,2025-06-26,paid_social,Peru,Piura,user1122@correo.net,25-34,True,desktop
+C1123,2025-11-23,influencer,Mexico,Merida,user1123@mail.com,25-34,False,tablet
+C1124,2025-06-09,paid_social,Argentina,La Plata,user1124@inbox.io,45-54,True,mobile
+C1125,2025-03-17,organic_search,Mexico,Guadalajara,user1125@mail.com,25-34,True,mobile
+C1126,2025-08-18,paid_social,Mexico,CDMX,user1126@correo.net,45-54,False,desktop
+C1127,2025-01-10,influencer,Chile,Santiago,user1127@mail.com,35-44,False,desktop
+C1128,2024-11-25,organic_search,Argentina,Rosario,user1128@inbox.io,35-44,True,mobile
+C1129,2025-02-22,paid_search,Brazil,Porto Alegre,user1129@mail.com,25-34,True,mobile
+C1130,2024-06-15,organic_search,Mexico,Merida,user1130@mail.com,55+,True,desktop
+C1131,2025-09-14,paid_social,Mexico,Puebla,user1131@mail.com,25-34,False,tablet
+C1132,2024-09-23,organic_search,Chile,Santiago,user1132@mail.com,18-24,False,desktop
+C1133,2024-06-07,paid_social,Argentina,Mendoza,user1133@mail.com,25-34,True,mobile
+C1134,2024-09-07,organic_search,Mexico,Monterrey,user1134@correo.net,35-44,False,tablet
+C1135,2025-10-12,paid_social,Brazil,Curitiba,user1135@mail.com,55+,True,mobile
+C1136,2024-11-04,paid_social,Colombia,Bucaramanga,user1136@mail.com,25-34,False,mobile
+C1137,2025-07-13,paid_search,Colombia,Barranquilla,user1137@mail.com,25-34,True,mobile
+C1138,2025-10-13,paid_social,brasil,Belo Horizonte,user1138@correo.net,25-34,True,mobile
+C1139,2024-03-15,organic_search,Argentina,Buenos Aires,user1139@inbox.io,35-44,False,desktop
+C1140,2025-09-13,paid_social,Colombia,Medellin,user1140@correo.net,18-24,True,desktop
+C1141,2024-10-26,paid_social,Brazil,Porto Alegre,user1141@mail.com,45-54,False,mobile
+C1142,2024-08-08,organic_search,Argentina,Buenos Aires,user1142@inbox.io,25-34,True,desktop
+C1143,2025-07-12,paid_social,Brazil,Belo Horizonte,user1143@mail.com,18-24,False,mobile
+C1144,2025-11-21,paid_social,Colombia,Barranquilla,user1144@mail.com,55+,True,tablet
+C1145,2024-10-08,paid_social,Chile,Concepcion,user1145@mail.com,25-34,False,mobile
+C1146,2025-04-19,organic_search,Colombia,Bogota,user1146@mail.com,35-44,True,mobile
+C1147,2024-10-27,organic_search,Colombia,Bucaramanga,user1147@mail.com,35-44,True,desktop
+C1148,2025-04-11,organic_search,Peru,Cusco,user1148@correo.net,18-24,False,mobile
+C1149,2025-05-07,paid_social,Chile,La Serena,user7735@correo.net,35-44,False,mobile
+C1150,2025-05-06,paid_social,Colombia,Cali,user1150@correo.net,35-44,False,mobile
+C1151,2025-06-01,paid_social,Argentina,Cordoba,user1151@mail.com,35-44,True,mobile
+C1152,2024-05-08,paid_social,Colombia,Bucaramanga,user1152@inbox.io,35-44,False,mobile
+C1153,2025-07-24,paid_search,Chile,Concepcion,user1153@mail.com,25-34,True,mobile
+C1154,2025-07-08,paid_social,Argentina,La Plata,user1154@correo.net,25-34,True,mobile
+C1155,2025-07-27,paid_social,Chile,Valparaiso,user1155@inbox.io,45-54,True,desktop
+C1156,2024-03-27,organic_search,Argentina,Mendoza,user1156@mail.com,25-34,True,desktop
+C1157,2025-01-20,paid_social,Brazil,Porto Alegre,user1157@mail.com,25-34,True,desktop
+C1158,2024-12-28,paid_social,Brazil,Belo Horizonte,user1158@inbox.io,25-34,True,mobile
+C1159,2024-04-12,organic_search,Brazil,Belo Horizonte,user1159@mail.com,45-54,False,mobile
+C1160,2024-08-27,paid_search,Mexico,Puebla,user1160@mail.com,35-44,False,desktop
+C1161,2025-01-16,paid_social,Peru,Piura,user1161@correo.net,18-24,False,desktop
+C1162,2025-08-03,paid_social,Chile,Valparaiso,user1162@correo.net,45-54,False,mobile
+C1163,2024-09-24,organic_search,Brazil,Rio de Janeiro,user1163@correo.net,18-24,False,mobile
+C1164,2025-10-27,paid_social,Colombia,Barranquilla,user1164@mail.com,25-34,False,mobile
+C1165,2025-04-25,paid_search,Argentina,Mendoza,user1165@mail.com,35-44,True,mobile
+C1166,2025-09-12,paid_search,Mexico,Guadalajara,user1166@correo.net,25-34,True,mobile
+C1167,2025-02-03,paid_search,Colombia,Medellin,user1167@correo.net,25-34,True,desktop
+C1168,2025-03-17,paid_social,Chile,Concepcion,user1168@mail.com,35-44,False,mobile
+C1169,2025-05-25,paid_social,Brazil,Porto Alegre,user1169@mail.com,25-34,True,desktop
+C1170,2025-11-24,paid_social,Chile,La Serena,user1170@mail.com,25-34,False,mobile
+C1171,2025-03-18,organic_search,Mexico,Monterrey,user1171@mail.com,35-44,True,mobile
+C1172,2025-03-23,paid_search,Peru,Cusco,user1172@inbox.io,18-24,False,desktop
+C1173,2025-05-01,paid_social,Chile,Valparaiso,user1173@correo.net,45-54,True,mobile
+C1174,2025-08-18,paid_social,Chile,La Serena,user1174@mail.com,55+,True,mobile
+C1175,2024-03-04,organic_search,Peru,Cusco,user1175@correo.net,45-54,True,mobile
+C1176,2025-03-21,paid_social,Brazil,Curitiba,user1176@mail.com,25-34,True,mobile
+C1177,2025-02-02,influencer,Mexico,Merida,user1177@mail.com,45-54,True,mobile
+C1178,2025-11-17,paid_search,Brazil,Belo Horizonte,user1178@mail.com,25-34,False,mobile
+C1179,2025-03-27,paid_social,Mexico,Monterrey,user1179@mail.com,35-44,True,tablet
+C1180,2025-02-04,paid_social,Colombia,Bucaramanga,user1180@inbox.io,45-54,True,desktop
+C1181,2025-12-12,paid_search,Chile,La Serena,user1181@correo.net,45-54,False,desktop
+C1182,2025-02-02,email,Chile,Valparaiso,user1182@mail.com,35-44,True,desktop
+C1183,2024-07-21,email,Brazil,Porto Alegre,user1183@correo.net,55+,True,mobile
+C1184,2024-08-26,paid_social,Chile,Temuco,user1184@inbox.io,25-34,True,desktop
+C1185,2024-04-01,organic_search,Argentina,Mendoza,user1185@inbox.io,45-54,True,mobile
+C1186,2024-01-16,paid_social,Peru,Cusco,user1186@mail.com,35-44,True,mobile
+C1187,2025-01-23,influencer,Mexico,CDMX,user1187@mail.com,45-54,True,mobile
+C1188,2025-09-01,paid_social,Chile,Santiago,user1188@inbox.io,45-54,True,mobile
+C1189,2025-08-14,paid_social,Mexico,Monterrey,user1189@correo.net,18-24,True,mobile
+C1190,2024-02-04,organic_search,Brazil,Curitiba,user1190@correo.net,18-24,True,tablet
+C1191,2025-04-26,paid_social,Peru,Trujillo,user1191@mail.com,25-34,False,desktop
+C1192,2024-06-15,paid_search,Colombia,Cali,user1192@mail.com,18-24,False,mobile
+C1193,2025-12-15,paid_social,Chile,Concepcion,user1193@inbox.io,18-24,False,mobile
+C1194,2024-06-28,organic_search,Colombia,Bucaramanga,user1194@mail.com,25-34,True,mobile
+C1195,2025-06-23,paid_social,Argentina,Mendoza,user1195@mail.com,35-44,True,mobile
+C1196,2024-11-09,paid_search,Chile,Temuco,user1196@mail.com,45-54,False,tablet
+C1197,2025-06-18,influencer,Mexico,Monterrey,user1197@correo.net,45-54,True,mobile
+C1198,2024-12-09,email,Mexico,Guadalajara,user1198@mail.com,25-34,True,mobile
+C1199,2025-09-15,paid_social, MEXICO ,Merida,user1199@mail.com,45-54,True,desktop

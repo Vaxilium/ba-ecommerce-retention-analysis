@@ -1,0 +1,201 @@
+product_id,product_name,category,list_price,cost,launched_date,active
+P100,Andes Hamper,Storage,58.38,34.54,2023-02-12,True
+P101,Bosque Box Set,Storage,90.32,40.25,2024-08-15,True
+P102,Cordillera Chair,Outdoor,113.7,66.46,2024-03-31,True
+P103,Barro Candleholder,Home Decor,101.9,55.67,2023-12-31,True
+P104,Bosque Planter,Outdoor,146.11,84.11,2024-10-10,True
+P105,Cobre Frame,Home Decor,86.72,49.34,2023-05-21,True
+P106,Bosque Board,Kitchen & Dining,48.63,22.27,2024-01-17,True
+P107,Barro Sconce,Lighting,92.76,54.41,2023-03-23,True
+P108,Cumbre Basket,Storage,92.04,45.79,2025-02-12,True
+P109,Cumbre Sculpture,Home Decor,15.77,9.11,2023-08-13,True
+P110,Pampa Organizer,Storage,60.22,32.14,2022-12-30,True
+P111,Cumbre Table Runner,Textiles,93.48,53.56,2023-04-01,True
+P112,Cordillera Rug,Textiles,59.51,25.36,2023-10-05,True
+P113,Cordillera Box Set,Storage,39.52,17.06,2023-12-25,True
+P114,Bosque String Lights,Lighting,111.34,64.22,2025-05-11,True
+P115,Barro Candleholder,Home Decor,17.38,7.61,2024-07-16,True
+P116,Bosque Candleholder,Home Decor,67.61,30.46,2024-02-17,True
+P117,Andes Mug Set,Kitchen & Dining,61.16,30.11,2024-08-14,True
+P118,Cobre Mat,Outdoor,148.12,82.94,2024-01-12,True
+P119,Andes String Lights,Lighting,94.65,44.91,2023-07-24,True
+P120,Pampa Towel Set,Textiles,46.31,22.28,2024-11-23,True
+P121,Cumbre Shelf,Storage,84.19,42.64,2024-05-01,True
+P122,Bosque Sconce,Lighting,38.09,19.17,2024-11-04,True
+P123,Pampa Mirror,Home Decor,25.86,13.9,2023-01-03,True
+P124,Cobre Rug,Textiles,65.09,35.03,2023-08-19,True
+P125,Bosque Hamper,Storage,25.61,13.25,2022-12-17,True
+P126,Rio Rug,Textiles,81.55,38.61,2025-04-03,True
+P127,Pampa Mural,Home Decor,101.76,60.98,2023-09-21,True
+P128,Barro Sculpture,Home Decor,85.59,40.76,2023-07-04,True
+P129,Andes Mural,Home Decor,111.18,51.81,2024-07-12,True
+P130,Cobre Board,Kitchen & Dining,76.72,44.62,2025-04-11,True
+P131,Pampa Throw,Textiles,53.28,32.35,2023-09-08,True
+P132,Lino Tray,Kitchen & Dining,89.41,53.5,2023-02-16,True
+P133,Cumbre Rug,Textiles,61.07,35.08,2024-09-30,True
+P134,Cordillera Vase,Home Decor,93.41,44.14,2022-12-01,True
+P135,Rio Hamper,Storage,32.1,14.63,2025-03-19,True
+P136,Rio Vase,Home Decor,47.58,27.38,2023-09-11,True
+P137,Cumbre Vase,Home Decor,39.11,17.46,2025-04-19,True
+P138,Lino Quilt,Textiles,110.25,59.12,2023-12-07,True
+P139,Cobre Sconce,Lighting,45.31,20.15,2023-05-25,True
+P140,Cordillera Tray,Kitchen & Dining,50.11,27.69,2023-09-05,True
+P141,Pampa Vase,Home Decor,73.3,40.08,2025-04-05,True
+P142,Lino Bowl,Kitchen & Dining,87.37,47.11,2023-05-09,True
+P143,Lino Organizer,Storage,19.64,8.68,2025-03-15,True
+P144,Cumbre Candleholder,Home Decor,70.73,38.28,2025-03-15,True
+P145,Lino Bowl,Kitchen & Dining,45.22,24.89,2025-01-15,True
+P146,Pampa Vase,Home Decor,39.85,22.68,2024-12-22,True
+P147,Solar Throw,Textiles,39.0,22.81,2024-11-30,True
+P148,Pampa Planter,Outdoor,51.52,24.57,2024-04-29,True
+P149,Rio Sculpture,Home Decor,33.34,14.36,2023-04-14,True
+P150,Lino Mug Set,Kitchen & Dining,36.8,19.17,2024-09-19,True
+P151,Rio Candleholder,Home Decor,39.86,18.73,2025-01-22,True
+P152,Lino Vase,Home Decor,54.23,28.46,2025-02-08,True
+P153,Cobre Fire Pit,Outdoor,42.88,25.24,2023-02-26,True
+P154,Pampa Shelf,Storage,89.71,49.21,2024-06-03,True
+P155,Solar Table Runner,Textiles,131.48,67.39,2024-10-28,True
+P156,Cordillera Bowl,Kitchen & Dining,22.9,11.81,2023-04-24,True
+P157,Cumbre Board,Kitchen & Dining,37.54,18.62,2023-12-07,True
+P158,Rio Fire Pit,Outdoor,149.13,76.98,2024-10-20,True
+P159,Cumbre Sconce,Lighting,149.68,78.81,2023-09-18,True
+P160,Pampa Lantern,Lighting,56.37,31.51,2024-02-22,True
+P161,Cobre Vase,Home Decor,91.2,39.85,2025-01-09,True
+P162,Barro Fire Pit,Outdoor,134.11,72.25,2024-01-01,True
+P163,Cumbre Board,Kitchen & Dining,58.03,25.48,2024-10-31,True
+P164,Barro Quilt,Textiles,94.42,48.46,2024-07-30,True
+P165,Pampa Throw,Textiles,97.95,59.38,2024-03-11,True
+P166,Cumbre Candleholder,Home Decor,84.08,42.35,2025-03-05,True
+P167,Solar Hammock,Outdoor,129.13,61.22,2024-10-23,True
+P168,Solar Sculpture,Home Decor,30.52,18.53,2024-04-09,True
+P169,Bosque Rug,Textiles,141.7,81.63,2023-12-26,True
+P170,Lino Mat,Outdoor,123.31,75.25,2023-12-13,True
+P171,Andes Candleholder,Home Decor,76.77,42.78,2023-03-13,True
+P172,Solar Hamper,Storage,45.17,23.11,2023-09-06,True
+P173,Lino Box Set,Storage,28.17,17.45,2023-12-30,True
+P174,Cumbre Basket,Storage,27.79,17.22,2022-12-18,True
+P175,Pampa Mat,Outdoor,33.77,15.81,2024-07-18,True
+P176,Andes Vase,Home Decor,110.62,60.98,2025-02-22,True
+P177,Lino Throw,Textiles,124.19,58.08,2022-12-29,True
+P178,Lino Basket,Storage,103.36,59.37,2024-12-27,True
+P179,Barro Mural,Home Decor,28.12,14.65,2024-08-16,True
+P180,Cordillera Organizer,Storage,32.28,18.3,2023-01-13,True
+P181,Cumbre Planter,Outdoor,109.5,47.18,2023-05-19,True
+P182,Pampa Fire Pit,Outdoor,122.25,55.58,2023-10-27,True
+P183,Rio Throw,Textiles,121.93,66.73,2023-02-17,True
+P184,Cumbre Fire Pit,Outdoor,69.17,37.05,2024-03-24,True
+P185,Bosque Vase,Home Decor,68.38,34.25,2024-08-17,True
+P186,Cumbre Mural,Home Decor,44.2,21.26,2024-06-02,True
+P187,Rio Board,Kitchen & Dining,43.89,20.34,2023-12-17,True
+P188,Rio Mural,Home Decor,58.93,30.34,2023-04-09,True
+P189,Solar Lantern,Lighting,125.43,69.05,2023-06-18,True
+P190,Rio Quilt,Textiles,76.08,41.48,2024-03-14,True
+P191,Rio Mat,Outdoor,149.74,77.97,2023-10-17,True
+P192,Andes Tray,Kitchen & Dining,77.32,40.12,2023-01-03,True
+P193,Pampa Frame,Home Decor,44.46,21.64,2023-03-11,True
+P194,Solar Lamp,Lighting,27.28,15.97,2024-08-23,True
+P195,Cobre Towel Set,Textiles,35.56,17.53,2025-01-05,True
+P196,Solar Organizer,Storage,46.61,25.99,2023-04-05,True
+P197,Pampa Vase,Home Decor,36.95,19.4,2024-08-22,True
+P198,Cobre Basket,Storage,109.0,57.9,2023-05-26,True
+P199,Barro Bowl,Kitchen & Dining,42.62,18.58,2024-12-21,True
+P200,Andes Cushion,Textiles,39.59,18.06,2023-07-04,True
+P201,Bosque Mug Set,Kitchen & Dining,50.24,26.99,2025-02-20,True
+P202,Cumbre Sculpture,Home Decor,103.58,56.71,2024-04-10,True
+P203,Solar Mirror,Home Decor,53.49,28.24,2024-07-03,True
+P204,Cobre Table Runner,Textiles,119.92,70.8,2023-10-25,True
+P205,Rio Basket,Storage,49.33,25.64,2024-02-24,True
+P206,Solar Board,Kitchen & Dining,83.55,45.63,2023-11-14,True
+P207,Solar Mural,Home Decor,112.38,57.27,2023-05-05,True
+P208,Cobre Mural,Home Decor,44.19,24.77,2024-03-14,True
+P209,Barro Towel Set,Textiles,118.99,71.47,2024-06-19,True
+P210,Bosque Shelf,Storage,97.75,43.29,2024-02-26,True
+P211,Cordillera Lantern,Lighting,175.32,108.16,2024-09-16,True
+P212,Barro Pendant,Lighting,78.71,35.01,2023-08-21,True
+P213,Bosque Mat,Outdoor,90.45,55.68,2023-01-02,True
+P214,Lino Vase,Home Decor,73.32,42.56,2023-07-24,True
+P215,Cumbre Cutlery Set,Kitchen & Dining,15.8,6.98,2025-03-08,True
+P216,Andes Box Set,Storage,97.62,55.44,2023-11-16,True
+P217,Rio Quilt,Textiles,131.56,55.37,2024-11-16,True
+P218,Cordillera Mirror,Home Decor,57.14,34.23,2024-05-29,True
+P219,Rio Bowl,,78.56,37.69,2024-07-23,True
+P220,Solar Cutlery Set,Kitchen & Dining,81.15,37.13,2024-07-30,True
+P221,Bosque Basket,Storage,109.88,52.66,2023-02-11,True
+P222,Solar Towel Set,Textiles,149.69,83.85,2024-09-18,True
+P223,Andes Cushion,Textiles,37.47,18.48,2024-05-15,True
+P224,Bosque Mirror,Home Decor,62.59,81.367,2025-01-27,True
+P225,Lino Box Set,Storage,67.76,32.32,2023-10-01,True
+P226,Rio Kettle,Kitchen & Dining,82.91,43.6,2025-04-30,True
+P227,Pampa Tray,Kitchen & Dining,30.83,14.94,2024-09-25,True
+P228,Bosque Bowl,Kitchen & Dining,55.8,32.27,2024-05-06,True
+P229,Cobre Mat,Outdoor,117.7,68.61,2024-11-01,True
+P230,Cobre Mural,Home Decor,74.03,32.6,2023-12-16,True
+P231,Pampa Mug Set,Kitchen & Dining,14.8,9.06,2024-07-06,True
+P232,Solar Vase,Home Decor,21.88,11.18,2023-07-22,True
+P233,Cumbre Frame,Home Decor,55.37,23.93,2024-03-05,True
+P234,Pampa Tray,Kitchen & Dining,42.74,21.51,2023-04-12,True
+P235,Solar Candleholder,Home Decor,68.36,35.4,2022-11-28,True
+P236,Cordillera Shelf,Storage,95.39,45.03,2023-06-21,True
+P237,Cobre Lamp,Lighting,60.38,29.35,2023-09-13,True
+P238,Pampa Towel Set,Textiles,112.5,50.64,2024-05-23,True
+P239,Pampa Mural,,34.77,14.82,2023-01-08,True
+P240,Andes Mirror,Home Decor,74.77,40.23,2024-08-06,True
+P241,Lino Cushion,Textiles,41.16,23.65,2024-12-30,True
+P242,Solar Fire Pit,Outdoor,89.08,48.16,2025-02-22,True
+P243,Cordillera Bowl,Kitchen & Dining,74.34,40.15,2025-05-01,True
+P244,Andes Mug Set,Kitchen & Dining,18.09,7.71,2024-09-19,True
+P245,Solar String Lights,Lighting,134.75,76.5,2023-10-04,True
+P246,Pampa Table Runner,Textiles,36.38,16.33,2024-07-22,True
+P247,Cobre Chair,Outdoor,30.52,12.92,2024-08-11,True
+P248,Cumbre Frame,Home Decor,109.22,65.1,2023-12-05,True
+P249,Cumbre Mirror,Home Decor,77.43,37.09,2024-03-23,True
+P250,Cordillera Mural,Home Decor,77.55,36.16,2024-12-28,True
+P251,Barro Table Runner,Textiles,71.5,39.72,2025-01-21,True
+P252,Andes Organizer,Storage,108.47,54.65,2025-03-07,True
+P253,Lino Rug,Textiles,73.03,32.05,2024-03-04,True
+P254,Pampa String Lights,Lighting,48.15,29.48,2023-07-23,True
+P255,Barro Fire Pit,Outdoor,57.58,29.59,2023-05-06,True
+P256,Barro Kettle,Kitchen & Dining,52.33,29.74,2024-07-06,True
+P257,Barro Vase,Home Decor,109.92,65.2,2024-09-15,True
+P258,Solar Sculpture,Home Decor,93.08,39.52,2023-06-04,True
+P259,Cumbre Chair,Outdoor,81.3,39.34,2025-04-26,True
+P260,Pampa Bowl,Kitchen & Dining,58.94,35.78,2024-02-23,True
+P261,Cumbre Bowl,Kitchen & Dining,22.23,10.06,2024-01-21,True
+P262,Lino Hammock,Outdoor,61.67,27.12,2024-01-26,True
+P263,Bosque Frame,Home Decor,34.51,18.1,2024-10-05,True
+P264,Bosque Vase,Home Decor,65.56,40.11,2023-07-05,True
+P265,Lino Tray,Kitchen & Dining,34.99,20.05,2024-07-06,True
+P266,Pampa Hammock,Outdoor,157.71,96.3,2024-05-09,True
+P267,Cumbre Table Runner,Textiles,32.61,19.21,2023-01-30,True
+P268,Rio Sculpture,Home Decor,41.59,18.8,2023-03-03,True
+P269,Barro Cutlery Set,Kitchen & Dining,40.96,20.52,2025-01-01,True
+P270,Pampa Frame,Home Decor,113.86,50.57,2023-06-24,True
+P271,Bosque Box Set,Storage,34.51,17.35,2025-02-10,True
+P272,Rio Sconce,Lighting,156.96,93.38,2024-09-29,True
+P273,Lino Sculpture,Home Decor,31.93,19.41,2023-09-28,True
+P274,Bosque Throw,Textiles,83.78,44.06,2023-11-15,True
+P275,Cobre Vase,Home Decor,114.99,59.38,2024-03-23,True
+P276,Pampa Towel Set,Textiles,47.0,22.12,2025-01-21,True
+P277,Bosque Kettle,Kitchen & Dining,59.43,77.259,2022-12-24,True
+P278,Bosque Vase,Home Decor,118.8,69.34,2024-12-01,True
+P279,Solar Mat,Outdoor,74.38,31.98,2024-09-24,True
+P280,Cobre Rug,Textiles,117.61,68.06,2024-12-10,True
+P281,Cordillera Lamp,Lighting,25.36,15.69,2023-06-05,True
+P282,Solar Towel Set,Textiles,36.77,16.56,2024-11-04,True
+P283,Cumbre Kettle,Kitchen & Dining,68.64,35.16,2024-06-18,True
+P284,Cumbre Towel Set,Textiles,143.51,70.11,2024-04-10,True
+P285,Barro Mirror,Home Decor,62.21,37.23,2023-05-05,True
+P286,Solar Quilt,Textiles,105.8,50.84,2023-10-18,True
+P287,Rio Tray,Kitchen & Dining,55.82,31.48,2025-03-28,True
+P288,Bosque Mug Set,Kitchen & Dining,62.47,30.51,2024-08-14,True
+P289,Cumbre Vase,Home Decor,85.09,46.89,2023-11-29,True
+P290,Cordillera Cutlery Set,Kitchen & Dining,27.43,15.79,2025-03-21,True
+P291,Cordillera Sculpture,Home Decor,43.89,19.65,2025-01-09,True
+P292,Cobre Mat,Outdoor,56.33,29.77,2024-04-01,True
+P293,Cobre Bowl,Kitchen & Dining,60.79,29.43,2024-08-19,True
+P294,Cumbre Pendant,Lighting,28.6,14.3,2024-08-18,True
+P295,Rio Chair,Outdoor,141.02,68.32,2025-01-22,True
+P296,Cobre String Lights,Lighting,76.79,36.0,2023-11-24,True
+P297,Barro Chair,Outdoor,126.85,72.68,2025-02-25,True
+P298,Cordillera Table Runner,Textiles,51.23,28.12,2024-06-19,True
+P299,Lino Board,Kitchen & Dining,29.07,16.95,2023-08-14,True
