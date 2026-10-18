@@ -28,7 +28,7 @@ statistical analysis and a costed recommendation, with every artifact reproducib
 
 | Artifact | What it is |
 |---|---|
-| 📊 **[Interactive dashboard](docs/dashboard.html)** | Self-contained plotly report (download & open in a browser) |
+| 📊 **[Interactive dashboard](https://vaxilium.github.io/ba-ecommerce-retention-analysis/dashboard.html)** | Live plotly report (also self-contained at `docs/dashboard.html` — open locally) |
 | 📄 **[Executive summary](docs/executive-summary.md)** | One-page read-out for busy stakeholders |
 | 💰 **[Business case](docs/06-business-case.md)** + **[Excel workbook](outputs/business_case.xlsx)** | Live-formula scenarios, sensitivity, payback |
 | 🗺️ **[RICE roadmap](docs/07-roadmap.md)** · **[User stories](docs/08-user-stories.md)** | Prioritised initiatives with acceptance criteria |

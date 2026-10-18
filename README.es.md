@@ -28,7 +28,7 @@ hasta el modelado SQL, el análisis estadístico y una recomendación con costos
 
 | Artefacto | Qué es |
 |---|---|
-| 📊 **[Dashboard interactivo](docs/dashboard.html)** | Reporte plotly autocontenido (descargar y abrir en el navegador) |
+| 📊 **[Dashboard interactivo](https://vaxilium.github.io/ba-ecommerce-retention-analysis/dashboard.html)** | Reporte plotly en vivo (también autocontenido en `docs/dashboard.html` — abrir localmente) |
 | 📄 **[Resumen ejecutivo](docs/executive-summary.md)** | Lectura de una página para stakeholders |
 | 💰 **[Caso de negocio](docs/06-business-case.md)** + **[Excel](outputs/business_case.xlsx)** | Escenarios con fórmulas vivas, sensibilidad, payback |
 | 🗺️ **[Roadmap RICE](docs/07-roadmap.md)** · **[Historias de usuario](docs/08-user-stories.md)** | Iniciativas priorizadas con criterios de aceptación |
