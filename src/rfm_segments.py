@@ -88,12 +88,12 @@ def main() -> None:
         "total_revenue": round(float(total_revenue), 2),
         "profiles": profiles.drop(columns=["revenue"]).to_dict("records"),
         "channel_mix_by_segment_pct": mix_share.to_dict("index"),
-        "winback_population_120_480d_freq2plus": winback_population,
+        "winback_population_120_540d": winback_population,
     }
     Path("outputs/analysis/rfm_segments.json").write_text(json.dumps(result, indent=2))
     print(profiles[["segment", "customers", "pct_customers", "avg_recency_days", "avg_frequency",
                     "avg_monetary", "pct_revenue"]].to_string(index=False))
-    print("win-back population (120-480d inactive, 2+ orders):", winback_population)
+    print("win-back population (120-540d inactive):", winback_population)
 
 
 if __name__ == "__main__":

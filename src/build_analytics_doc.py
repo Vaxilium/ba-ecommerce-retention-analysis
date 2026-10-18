@@ -134,7 +134,7 @@ thresholds (1 / 2 / 3 / 4–5 / 6+), because most customers are single-buyers. S
 
 Read with the KPI tree: champions alone carry {prof_tbl.loc[prof_tbl['segment']=='champions','pct_revenue'].iloc[0]:.0f}% of revenue
 — protecting them (service quality, delivery) matters more than winning back small one-timers.
-The prime win-back pool ({rfm['winback_population_120_480d_freq2plus']:,} customers inactive 120–540 days) mixes
+The prime win-back pool ({rfm['winback_population_120_540d']:,} customers inactive 120–540 days) mixes
 `at_risk` (higher past value) and `hibernating`/`about_to_sleep` (lower value) — the A/B test below prices the play.
 
 ## 3. Simulated A/B test: win-back email
