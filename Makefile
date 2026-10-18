@@ -28,6 +28,7 @@ docs: analytics
 	$(PY) src/business_case.py
 	$(PY) src/build_dashboard.py
 	$(PY) src/build_roadmap.py
+	$(PY) src/build_readme.py
 
 test:
 	$(PY) -m pytest tests/ -q
