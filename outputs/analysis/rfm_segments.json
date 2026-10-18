@@ -1,0 +1,180 @@
+{
+  "total_customers": 19307,
+  "total_revenue": 9542833.96,
+  "profiles": [
+    {
+      "segment": "champions",
+      "customers": 4120,
+      "avg_recency_days": 24.16,
+      "avg_frequency": 12.87,
+      "avg_monetary": 1638.38,
+      "avg_r_score": 4.58,
+      "pct_customers": 21.3,
+      "pct_revenue": 70.7,
+      "recommended_action": "Reward & referral: early access, loyalty perks, ask for reviews."
+    },
+    {
+      "segment": "needs_attention",
+      "customers": 2061,
+      "avg_recency_days": 133.26,
+      "avg_frequency": 3.45,
+      "avg_monetary": 476.73,
+      "avg_r_score": 3.0,
+      "pct_customers": 10.7,
+      "pct_revenue": 10.3,
+      "recommended_action": "Reactivate gently: win-back email with best-seller picks."
+    },
+    {
+      "segment": "at_risk",
+      "customers": 1532,
+      "avg_recency_days": 431.36,
+      "avg_frequency": 1.48,
+      "avg_monetary": 348.08,
+      "avg_r_score": 1.5,
+      "pct_customers": 7.9,
+      "pct_revenue": 5.6,
+      "recommended_action": "Priority win-back: high-value lapsed \u2014 personal outreach / stronger offer."
+    },
+    {
+      "segment": "new",
+      "customers": 2747,
+      "avg_recency_days": 35.3,
+      "avg_frequency": 1.0,
+      "avg_monetary": 119.99,
+      "avg_r_score": 4.37,
+      "pct_customers": 14.2,
+      "pct_revenue": 3.5,
+      "recommended_action": "Onboard: welcome series, first-repeat incentive within 30 days."
+    },
+    {
+      "segment": "hibernating",
+      "customers": 2053,
+      "avg_recency_days": 435.62,
+      "avg_frequency": 1.02,
+      "avg_monetary": 153.92,
+      "avg_r_score": 1.48,
+      "pct_customers": 10.6,
+      "pct_revenue": 3.3,
+      "recommended_action": "Low-cost reactivation only: newsletter + seasonal campaigns."
+    },
+    {
+      "segment": "lost",
+      "customers": 4139,
+      "avg_recency_days": 428.56,
+      "avg_frequency": 1.0,
+      "avg_monetary": 61.68,
+      "avg_r_score": 1.51,
+      "pct_customers": 21.4,
+      "pct_revenue": 2.7,
+      "recommended_action": "Do not spend: suppress from paid audiences, keep email only."
+    },
+    {
+      "segment": "loyal",
+      "customers": 384,
+      "avg_recency_days": 29.11,
+      "avg_frequency": 3.0,
+      "avg_monetary": 385.53,
+      "avg_r_score": 4.47,
+      "pct_customers": 2.0,
+      "pct_revenue": 1.6,
+      "recommended_action": "Upsell & cross-sell: bundles, category expansion, VIP tier invite."
+    },
+    {
+      "segment": "potential_loyalist",
+      "customers": 471,
+      "avg_recency_days": 26.83,
+      "avg_frequency": 2.0,
+      "avg_monetary": 253.35,
+      "avg_r_score": 4.55,
+      "pct_customers": 2.4,
+      "pct_revenue": 1.3,
+      "recommended_action": "Nurture: personalised recommendations, second-purchase nudge."
+    },
+    {
+      "segment": "about_to_sleep",
+      "customers": 1800,
+      "avg_recency_days": 142.25,
+      "avg_frequency": 1.0,
+      "avg_monetary": 60.35,
+      "avg_r_score": 3.0,
+      "pct_customers": 9.3,
+      "pct_revenue": 1.1,
+      "recommended_action": "Win-back candidate: time-limited offer, low-cost channel first."
+    }
+  ],
+  "channel_mix_by_segment_pct": {
+    "about_to_sleep": {
+      "email": 4.8,
+      "influencer": 1.9,
+      "organic_search": 15.9,
+      "paid_search": 14.4,
+      "paid_social": 60.4,
+      "referral": 2.4
+    },
+    "at_risk": {
+      "email": 6.5,
+      "influencer": 5.4,
+      "organic_search": 22.8,
+      "paid_search": 19.7,
+      "paid_social": 40.8,
+      "referral": 4.7
+    },
+    "champions": {
+      "email": 7.9,
+      "influencer": 3.8,
+      "organic_search": 28.4,
+      "paid_search": 20.5,
+      "paid_social": 32.5,
+      "referral": 6.9
+    },
+    "hibernating": {
+      "email": 5.7,
+      "influencer": 5.5,
+      "organic_search": 19.3,
+      "paid_search": 18.5,
+      "paid_social": 46.3,
+      "referral": 4.7
+    },
+    "lost": {
+      "email": 5.6,
+      "influencer": 4.2,
+      "organic_search": 20.9,
+      "paid_search": 19.1,
+      "paid_social": 45.6,
+      "referral": 4.6
+    },
+    "loyal": {
+      "email": 8.3,
+      "influencer": 1.8,
+      "organic_search": 18.2,
+      "paid_search": 19.8,
+      "paid_social": 47.1,
+      "referral": 4.7
+    },
+    "needs_attention": {
+      "email": 5.3,
+      "influencer": 3.4,
+      "organic_search": 21.2,
+      "paid_search": 16.6,
+      "paid_social": 49.0,
+      "referral": 4.5
+    },
+    "new": {
+      "email": 4.5,
+      "influencer": 2.3,
+      "organic_search": 15.3,
+      "paid_search": 12.4,
+      "paid_social": 62.7,
+      "referral": 2.9
+    },
+    "potential_loyalist": {
+      "email": 5.7,
+      "influencer": 2.8,
+      "organic_search": 19.5,
+      "paid_search": 14.0,
+      "paid_social": 52.4,
+      "referral": 5.5
+    }
+  },
+  "winback_population_120_480d_freq2plus": 4940
+}

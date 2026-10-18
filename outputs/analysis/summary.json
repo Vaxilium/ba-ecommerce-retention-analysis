@@ -13,42 +13,42 @@
       "customers": 790,
       "repeaters": 348.0,
       "repeat_rate_90d": 0.4405,
-      "avg_first_order_value": 131.29
+      "avg_first_order_value": 130.96
     },
     {
       "acquisition_channel": "organic_search",
       "customers": 3506,
       "repeaters": 1387.0,
       "repeat_rate_90d": 0.3956,
-      "avg_first_order_value": 134.52
+      "avg_first_order_value": 133.79
     },
     {
       "acquisition_channel": "email",
       "customers": 976,
       "repeaters": 377.0,
       "repeat_rate_90d": 0.3863,
-      "avg_first_order_value": 133.84
+      "avg_first_order_value": 133.01
     },
     {
       "acquisition_channel": "paid_search",
       "customers": 2921,
       "repeaters": 987.0,
       "repeat_rate_90d": 0.3379,
-      "avg_first_order_value": 131.57
+      "avg_first_order_value": 130.67
     },
     {
       "acquisition_channel": "influencer",
       "customers": 632,
       "repeaters": 177.0,
       "repeat_rate_90d": 0.2801,
-      "avg_first_order_value": 138.14
+      "avg_first_order_value": 137.7
     },
     {
       "acquisition_channel": "paid_social",
       "customers": 6866,
       "repeaters": 1555.0,
       "repeat_rate_90d": 0.2265,
-      "avg_first_order_value": 127.51
+      "avg_first_order_value": 126.69
     }
   ],
   "discount": [
@@ -57,7 +57,7 @@
       "customers": 3772,
       "repeaters": 1412.0,
       "repeat_rate_90d": 0.3743,
-      "avg_first_order_value": 164.14,
+      "avg_first_order_value": 163.31,
       "avg_discount": 0.0
     },
     {
@@ -65,7 +65,7 @@
       "customers": 3583,
       "repeaters": 1264.0,
       "repeat_rate_90d": 0.3528,
-      "avg_first_order_value": 152.28,
+      "avg_first_order_value": 151.14,
       "avg_discount": 0.1
     },
     {
@@ -73,7 +73,7 @@
       "customers": 2716,
       "repeaters": 899.0,
       "repeat_rate_90d": 0.331,
-      "avg_first_order_value": 123.84,
+      "avg_first_order_value": 123.11,
       "avg_discount": 0.23
     },
     {
@@ -81,7 +81,7 @@
       "customers": 5620,
       "repeaters": 1256.0,
       "repeat_rate_90d": 0.2235,
-      "avg_first_order_value": 98.24,
+      "avg_first_order_value": 97.7,
       "avg_discount": 0.4
     }
   ],

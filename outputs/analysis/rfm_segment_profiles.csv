@@ -1,0 +1,10 @@
+segment,customers,avg_recency_days,avg_frequency,avg_monetary,revenue,avg_r_score,pct_customers,pct_revenue,recommended_action
+champions,4120,24.16,12.87,1638.38,6750139.29,4.58,21.3,70.7,"Reward & referral: early access, loyalty perks, ask for reviews."
+needs_attention,2061,133.26,3.45,476.73,982549.12,3.0,10.7,10.3,Reactivate gently: win-back email with best-seller picks.
+at_risk,1532,431.36,1.48,348.08,533264.94,1.5,7.9,5.6,Priority win-back: high-value lapsed — personal outreach / stronger offer.
+new,2747,35.3,1.0,119.99,329605.0,4.37,14.2,3.5,"Onboard: welcome series, first-repeat incentive within 30 days."
+hibernating,2053,435.62,1.02,153.92,315989.67,1.48,10.6,3.3,Low-cost reactivation only: newsletter + seasonal campaigns.
+lost,4139,428.56,1.0,61.68,255278.73,1.51,21.4,2.7,"Do not spend: suppress from paid audiences, keep email only."
+loyal,384,29.11,3.0,385.53,148045.37,4.47,2.0,1.6,"Upsell & cross-sell: bundles, category expansion, VIP tier invite."
+potential_loyalist,471,26.83,2.0,253.35,119326.51,4.55,2.4,1.3,"Nurture: personalised recommendations, second-purchase nudge."
+about_to_sleep,1800,142.25,1.0,60.35,108635.33,3.0,9.3,1.1,"Win-back candidate: time-limited offer, low-cost channel first."

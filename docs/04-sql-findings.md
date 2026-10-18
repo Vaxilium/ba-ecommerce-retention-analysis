@@ -47,12 +47,12 @@ a change of **-8.5 points** (-24.0% relative).
 
 | acquisition_channel | customers | repeaters | repeat_rate_90d | avg_first_order_value |
 |---|---|---|---|---|
-| referral | 790 | 348 | 0.4405 | 131.2900 |
-| organic_search | 3,506 | 1,387 | 0.3956 | 134.5200 |
-| email | 976 | 377 | 0.3863 | 133.8400 |
-| paid_search | 2,921 | 987 | 0.3379 | 131.5700 |
-| influencer | 632 | 177 | 0.2801 | 138.1400 |
-| paid_social | 6,866 | 1,555 | 0.2265 | 127.5100 |
+| referral | 790 | 348 | 0.4405 | 130.9600 |
+| organic_search | 3,506 | 1,387 | 0.3956 | 133.7900 |
+| email | 976 | 377 | 0.3863 | 133.0100 |
+| paid_search | 2,921 | 987 | 0.3379 | 130.6700 |
+| influencer | 632 | 177 | 0.2801 | 137.7000 |
+| paid_social | 6,866 | 1,555 | 0.2265 | 126.6900 |
 
 Paid social customers repeat at **22.7%** vs
 **44.0%** for referral —
@@ -62,10 +62,10 @@ a spread of **21.4 points** across channels (n ≥ 632 per channel).
 
 | first_order_discount_band | customers | repeaters | repeat_rate_90d | avg_first_order_value | avg_discount |
 |---|---|---|---|---|---|
-| none | 3,772 | 1,412 | 0.3743 | 164.1400 | 0.0000 |
-| light | 3,583 | 1,264 | 0.3528 | 152.2800 | 0.1000 |
-| medium | 2,716 | 899 | 0.3310 | 123.8400 | 0.2300 |
-| heavy | 5,620 | 1,256 | 0.2235 | 98.2400 | 0.4000 |
+| none | 3,772 | 1,412 | 0.3743 | 163.3100 | 0.0000 |
+| light | 3,583 | 1,264 | 0.3528 | 151.1400 | 0.1000 |
+| medium | 2,716 | 899 | 0.3310 | 123.1100 | 0.2300 |
+| heavy | 5,620 | 1,256 | 0.2235 | 97.7000 | 0.4000 |
 
 Customers acquired with a **heavy (>30%) discount repeat at 22.4%,
 15.1 points below** the no-discount band (37.4%).

@@ -44,7 +44,7 @@ SELECT c.customer_id, c.signup_date, c.acquisition_channel, c.country, c.city, c
        c.preferred_device, c.marketing_consent,
        f.order_date AS first_order_date,
        strftime('%Y-%m', f.order_date) AS cohort_month,
-       v.first_order_value,
+       COALESCE(v.first_order_value, 0.0) AS first_order_value,
        CASE WHEN f.discount_rate = 0 THEN 'none'
             WHEN f.discount_rate <= 0.15 THEN 'light'
             WHEN f.discount_rate <= 0.30 THEN 'medium'
@@ -130,8 +130,12 @@ WITH agg AS (
     WHERE o.order_status <> 'cancelled'
     GROUP BY o.customer_id
 )
+-- r/m use NTILE (continuous distributions). f uses explicit thresholds because
+-- ~2/3 of customers sit on frequency = 1 (NTILE would split ties arbitrarily).
 SELECT customer_id, recency_days, frequency, ROUND(monetary, 2) AS monetary,
        NTILE(5) OVER (ORDER BY recency_days DESC) AS r_score,
-       NTILE(5) OVER (ORDER BY frequency) AS f_score,
+       CASE WHEN frequency >= 6 THEN 5 WHEN frequency >= 4 THEN 4
+            WHEN frequency = 3 THEN 3 WHEN frequency = 2 THEN 2
+            ELSE 1 END AS f_score,
        NTILE(5) OVER (ORDER BY monetary) AS m_score
 FROM agg;

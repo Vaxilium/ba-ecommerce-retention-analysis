@@ -1,0 +1,51 @@
+{
+  "design": {
+    "population_filter": "last order 120-540 days ago, opted-in",
+    "population": 5057,
+    "n_control": 2528,
+    "n_treatment": 2529,
+    "seed": 42,
+    "alpha": 0.05,
+    "power": 0.8,
+    "outcome_window_days": 60,
+    "treatment_rel_lift_assumption": 0.35,
+    "natural_reactivation_basis": {
+      "rate": 0.0577,
+      "episodes_observed": 8072
+    }
+  },
+  "observed": {
+    "control_rate": 0.0506,
+    "treatment_rate": 0.0755,
+    "conversions_control": 128,
+    "conversions_treatment": 191,
+    "abs_lift": 0.0249,
+    "rel_lift": 0.4916,
+    "z": 3.64,
+    "p_value": 0.000272,
+    "ci95_abs": [
+      0.0115,
+      0.0383
+    ],
+    "ci95_rel": [
+      0.2273,
+      0.7559
+    ]
+  },
+  "power_analysis": {
+    "mde_abs": 0.0184,
+    "mde_rel": 0.3181,
+    "sample_size_per_arm_for_25pct_rel_mde": 4095,
+    "note": "MDE at 80% power / 5% two-sided alpha for the achieved sample size"
+  },
+  "economics": {
+    "avg_margin_per_order": 40.34,
+    "cost_per_email": 0.05,
+    "incremental_conversions": 62.9,
+    "incremental_margin": 2539.63,
+    "program_cost": 126.45,
+    "roi": 19.08,
+    "conservative_incremental_margin_ci_low": 1174.19
+  },
+  "decision": "ROLL OUT"
+}

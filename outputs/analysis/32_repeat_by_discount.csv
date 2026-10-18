@@ -1,5 +1,5 @@
 first_order_discount_band,customers,repeaters,repeat_rate_90d,avg_first_order_value,avg_discount
-none,3772,1412.0,0.3743,164.14,0.0
-light,3583,1264.0,0.3528,152.28,0.1
-medium,2716,899.0,0.331,123.84,0.23
-heavy,5620,1256.0,0.2235,98.24,0.4
+none,3772,1412.0,0.3743,163.31,0.0
+light,3583,1264.0,0.3528,151.14,0.1
+medium,2716,899.0,0.331,123.11,0.23
+heavy,5620,1256.0,0.2235,97.7,0.4

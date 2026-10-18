@@ -1,0 +1,218 @@
+{
+  "population": 15691,
+  "base_rate": 0.3079,
+  "auc_train": 0.6386,
+  "auc_test": 0.6357,
+  "n_train": 11768,
+  "n_test": 3923,
+  "decile_lift": [
+    {
+      "decile": 1,
+      "customers": 393,
+      "actual_repeat_rate": 0.17048346055979643,
+      "lift_vs_base": 0.5536478607417893
+    },
+    {
+      "decile": 2,
+      "customers": 392,
+      "actual_repeat_rate": 0.15816326530612246,
+      "lift_vs_base": 0.5136378226787405
+    },
+    {
+      "decile": 3,
+      "customers": 392,
+      "actual_repeat_rate": 0.2627551020408163,
+      "lift_vs_base": 0.8533015441275847
+    },
+    {
+      "decile": 4,
+      "customers": 392,
+      "actual_repeat_rate": 0.2627551020408163,
+      "lift_vs_base": 0.8533015441275847
+    },
+    {
+      "decile": 5,
+      "customers": 393,
+      "actual_repeat_rate": 0.26463104325699743,
+      "lift_vs_base": 0.8593936942857624
+    },
+    {
+      "decile": 6,
+      "customers": 392,
+      "actual_repeat_rate": 0.3010204081632653,
+      "lift_vs_base": 0.9775687592917962
+    },
+    {
+      "decile": 7,
+      "customers": 392,
+      "actual_repeat_rate": 0.3673469387755102,
+      "lift_vs_base": 1.1929652655764293
+    },
+    {
+      "decile": 8,
+      "customers": 392,
+      "actual_repeat_rate": 0.3596938775510204,
+      "lift_vs_base": 1.168111822543587
+    },
+    {
+      "decile": 9,
+      "customers": 392,
+      "actual_repeat_rate": 0.4642857142857143,
+      "lift_vs_base": 1.5077755439924316
+    },
+    {
+      "decile": 10,
+      "customers": 393,
+      "actual_repeat_rate": 0.4681933842239186,
+      "lift_vs_base": 1.5204657668132722
+    }
+  ],
+  "strongest_negative": [
+    {
+      "feature": "acquisition_channel_influencer",
+      "coef": -0.5075657286183164,
+      "odds_ratio": 0.6019591286306052,
+      "ci_low": 0.4711739287906838,
+      "ci_high": 0.7690467795443143,
+      "z": -4.061151595240285,
+      "p_value": 4.883124953989801e-05
+    },
+    {
+      "feature": "acquisition_channel_paid_search",
+      "coef": -0.21580441962550415,
+      "odds_ratio": 0.805892903296935,
+      "ci_low": 0.685822668065817,
+      "ci_high": 0.9469844054819653,
+      "z": -2.6217816359344237,
+      "p_value": 0.008747145620567394
+    },
+    {
+      "feature": "acquisition_channel_paid_social",
+      "coef": -0.747657843271062,
+      "odds_ratio": 0.4734742058833184,
+      "ci_low": 0.40780590401667194,
+      "ci_high": 0.5497169644402062,
+      "z": -9.814799082602365,
+      "p_value": 9.723148747496837e-23
+    },
+    {
+      "feature": "country_Unknown",
+      "coef": -0.08549007422777676,
+      "odds_ratio": 0.9180622554857696,
+      "ci_low": 0.4732560703698085,
+      "ci_high": 1.7809350111220201,
+      "z": -0.25287249687169694,
+      "p_value": 0.8003667432073883
+    },
+    {
+      "feature": "preferred_device_mobile",
+      "coef": -0.09851489977163486,
+      "odds_ratio": 0.906182190605983,
+      "ci_low": 0.8306463171646504,
+      "ci_high": 0.9885870142354304,
+      "z": -2.2184908419048557,
+      "p_value": 0.026521383332941104
+    },
+    {
+      "feature": "preferred_device_tablet",
+      "coef": -0.02745581884121847,
+      "odds_ratio": 0.9729176662338058,
+      "ci_low": 0.830304599976862,
+      "ci_high": 1.140025943847852,
+      "z": -0.3395021019483162,
+      "p_value": 0.7342315138898949
+    },
+    {
+      "feature": "log_first_order_value",
+      "coef": -0.009140350343978181,
+      "odds_ratio": 0.9909012956752352,
+      "ci_low": 0.9544636044183528,
+      "ci_high": 1.0287300356195541,
+      "z": -0.4781766290829421,
+      "p_value": 0.6325244951997616
+    },
+    {
+      "feature": "first_order_delay_days",
+      "coef": -0.018821988316871638,
+      "odds_ratio": 0.9813540391793362,
+      "ci_low": 0.9517360978337599,
+      "ci_high": 1.011893688182683,
+      "z": -1.2038013456629744,
+      "p_value": 0.22866636947633034
+    }
+  ],
+  "strongest_positive": [
+    {
+      "feature": "first_order_discount_band_none",
+      "coef": 0.7078510032868589,
+      "odds_ratio": 2.029624911430653,
+      "ci_low": 1.8187844124265375,
+      "ci_high": 2.2649068536957624,
+      "z": 12.649112797277226,
+      "p_value": 1.1314527342136114e-36
+    },
+    {
+      "feature": "first_order_discount_band_light",
+      "coef": 0.6106562704353837,
+      "odds_ratio": 1.841639615912237,
+      "ci_low": 1.6484097608686386,
+      "ci_high": 2.0575202570446622,
+      "z": 10.79781516719652,
+      "p_value": 3.524913373360548e-27
+    },
+    {
+      "feature": "first_order_discount_band_medium",
+      "coef": 0.48655173176703864,
+      "odds_ratio": 1.6266972492148344,
+      "ci_low": 1.4434499132730523,
+      "ci_high": 1.8332080083076265,
+      "z": 7.97921370652334,
+      "p_value": 1.4726840513830918e-15
+    },
+    {
+      "feature": "acquisition_channel_referral",
+      "coef": 0.23095478597702837,
+      "odds_ratio": 1.2598022774323887,
+      "ci_low": 1.017511619362479,
+      "ci_high": 1.559787375419094,
+      "z": 2.119300342090784,
+      "p_value": 0.03406509277191341
+    },
+    {
+      "feature": "country_Chile",
+      "coef": 0.211422048913323,
+      "odds_ratio": 1.2354336584789296,
+      "ci_low": 1.0524709053377679,
+      "ci_high": 1.4502028671403515,
+      "z": 2.585372975809934,
+      "p_value": 0.00972737080067527
+    },
+    {
+      "feature": "country_Mexico",
+      "coef": 0.20251085235031477,
+      "odds_ratio": 1.2244733734638098,
+      "ci_low": 1.0561362143926936,
+      "ci_high": 1.419641729816073,
+      "z": 2.6838284000767425,
+      "p_value": 0.007278445360485858
+    },
+    {
+      "feature": "age_band_55+",
+      "coef": 0.15066524557265532,
+      "odds_ratio": 1.1626074049572788,
+      "ci_low": 0.9797215717564837,
+      "ci_high": 1.379632762028701,
+      "z": 1.7253885574388028,
+      "p_value": 0.08445747204168268
+    },
+    {
+      "feature": "age_band_25-34",
+      "coef": 0.12462207701220869,
+      "odds_ratio": 1.1327202911290477,
+      "ci_low": 1.0036854474502905,
+      "ci_high": 1.2783439883430412,
+      "z": 2.0196163039482222,
+      "p_value": 0.0434232026612079
+    }
+  ]
+}
